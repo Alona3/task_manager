@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de9a12e-bb69-4a80-ae34-16e3375755a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/worker_tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/tasks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +39,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738647462355</updated>
-      <workItem from="1738647463781" duration="16181000" />
+      <workItem from="1738647463781" duration="17157000" />
     </task>
     <servers />
   </component>
