@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+    <h1>{% if worker %}Редагувати працівника{% else %}Додати нового працівника{% endif %}</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">{% if worker %}Оновити{% else %}Додати{% endif %}</button>
+    </form>
+{% endblock %}

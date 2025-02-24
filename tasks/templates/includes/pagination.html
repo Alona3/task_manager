@@ -1,0 +1,26 @@
+<!-- pagination.html -->
+<div class="flex justify-center mt-4">
+    <nav aria-label="Page navigation">
+        <ul class="inline-flex items-center space-x-2">
+            {% if tasks.has_previous %}
+                <li>
+                    <a href="?page=1" class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Перша</a>
+                </li>
+                <li>
+                    <a href="?page={{ tasks.previous_page_number }}" class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Попередня</a>
+                </li>
+            {% endif %}
+            <li>
+                <span class="px-4 py-2 text-gray-700">Сторінка {{ tasks.number }} з {{ tasks.paginator.num_pages }}</span>
+            </li>
+            {% if tasks.has_next %}
+                <li>
+                    <a href="?page={{ tasks.next_page_number }}" class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Наступна</a>
+                </li>
+                <li>
+                    <a href="?page={{ tasks.paginator.num_pages }}" class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Остання</a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>

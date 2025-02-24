@@ -1,0 +1,32 @@
+<!-- position_list.html -->
+{% extends "layouts/base.html" %}
+
+{% block content %}
+    <h2 class="text-3xl font-bold mb-4">Список посад</h2>
+
+    <a href="{% url 'positions:position-create' %}" class="bg-green-500 text-white px-4 py-2 rounded mb-6 inline-block">Створити нову посаду</a>
+
+    <table class="min-w-full bg-white border border-gray-300">
+        <thead>
+            <tr>
+                <th class="py-3 px-4 text-left">Назва</th>
+                <th class="py-3 px-4 text-left">Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for position in positions %}
+                <tr>
+                    <td class="py-3 px-4">{{ position.name }}</td>
+                    <td class="py-3 px-4">
+                        <a href="{% url 'positions:position-update' position.id %}" class="text-blue-500 hover:underline">Редагувати</a> |
+                        <a href="{% url 'positions:position-delete' position.id %}" class="text-red-500 hover:underline">Видалити</a>
+                    </td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="2" class="text-center py-3">Немає посад</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

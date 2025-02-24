@@ -1,0 +1,16 @@
+<!-- worker_confirm_delete.html -->
+{% extends "layouts/base.html" %}
+
+{% block content %}
+    <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold mb-4">Підтвердження видалення працівника</h2>
+        <p class="mb-6">Ви впевнені, що хочете видалити працівника: <strong>{{ worker.name }}</strong>?</p>
+
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition">Так, видалити</button>
+            <a href="{% url 'tasks:worker-list' %}" class="ml-4 text-blue-500 hover:underline">Скасувати</a>
+        </form>
+    </div>
+{% endblock %}
+

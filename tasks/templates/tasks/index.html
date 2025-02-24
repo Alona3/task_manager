@@ -1,0 +1,20 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Task Manager</h1>
+        <p>Плануйте та керуйте завданнями вашої команди в одному місці!</p>
+
+        <section class="stats">
+            <h2>Статистика:</h2>
+            <div class="stat">
+                <h3>{{ tasks_count }} Завдання</h3>
+                <p>Всього завдань у системі</p>
+            </div>
+            <div class="stat">
+                <h3>{{ workers_count }} Працівники</h3>
+                <p>Всього працівників у команді</p>
+            </div>
+        </section>
+    </div>
+{% endblock %}

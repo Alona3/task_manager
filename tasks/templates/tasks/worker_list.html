@@ -1,0 +1,31 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Працівники{% endblock %}
+
+{% block content %}
+    <h2>Працівники</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ім'я</th>
+                <th scope="col">Посада</th>
+                <th scope="col">Керування</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for worker in workers %}
+                <tr>
+                    <th scope="row">{{ worker.id }}</th>
+                    <td>{{ worker.name }}</td>
+                    <td>{{ worker.position }}</td>
+                    <td>
+                        <a href="{% url 'worker_edit' worker.id %}" class="btn btn-primary btn-sm">Редагувати</a>
+                        <a href="{% url 'worker_delete' worker.id %}" class="btn btn-danger btn-sm">Видалити</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
