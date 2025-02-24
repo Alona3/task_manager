@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <div class="text-xl font-bold">Task Manager</div>
+        <div class="flex space-x-4">
+            <a href="/" class="px-4">Tasks</a>
+            <a href="/workers/" class="px-4">Workers</a>
+            <a href="#" class="px-4">Logout</a>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-full">GET STARTED</button>
+        </div>
+    </nav>
+    <div class="container mx-auto mt-6">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
