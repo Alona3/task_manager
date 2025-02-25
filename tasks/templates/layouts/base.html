@@ -10,11 +10,8 @@
     <!-- Підключаємо Google Fonts для шрифтів -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Підключаємо Bootstrap -->
+    <!-- Підключаємо Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Підключаємо AOS для анімацій -->
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- Стилі сайту -->
     <link rel="stylesheet" href="{% static 'styles.css' %}">
@@ -32,18 +29,7 @@
     <!-- Футер -->
     {% include 'includes/footer.html' %}
 
-    <!-- Підключаємо JS для Bootstrap та AOS -->
+    <!-- Підключаємо Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
-    <script>
-        let AOS;
-        AOS.init({
-            duration: 1200,  // Тривалість анімації
-            easing: 'ease-in-out',  // Тип анімації
-            once: true,  // Анімація виконується тільки один раз
-            mirror: false  // Анімація не відтворюється знову, коли елемент виходить з екрану
-        });
-    </script>
 </body>
 </html>

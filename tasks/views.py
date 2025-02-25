@@ -96,6 +96,116 @@ def ajax_task_list(request):
     return JsonResponse(data)
 
 
+@login_required
+def about_us_view(request):
+    return render(request, 'pages/about_us.html')
+
+
+@login_required
+def contact_us(request):
+    return render(request, 'pages/contact_us.html')
+
+
+@login_required
+def author_view(request):
+    return render(request, 'tasks/author.html')
+
+
+@login_required
+def presentation_view(request):
+    return render(request, 'tasks/presentation.html')
+
+
+@login_required
+def page_header_view(request):
+    # код для відображення сторінки
+    return render(request, 'tasks/page_header.html')
+
+
+@login_required
+def features_view(request):
+    return render(request, 'sections/page-sections/features.html')
+
+
+@login_required
+def navbars(request):
+    return render(request, 'includes/navigation.html')
+
+
+@login_required
+def nav_tabs(request):
+    return render(request, 'sections/navigation/nav_tabs.html')
+
+
+@login_required
+def pagination_view(request):
+    return render(request, 'sections/navigation/pagination.html')
+
+
+@login_required
+def inputs_view(request):
+    return render(request, 'sections/input-areas/inputs.html')
+
+
+@login_required
+def forms_view(request):
+    return render(request, 'sections/input-areas/forms.html')
+
+
+@login_required
+def avatars_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/avatars.html')
+
+
+@login_required
+def badges_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/badges.html')
+
+
+@login_required
+def breadcrumbs_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/breadcrumbs.html')
+
+
+@login_required
+def buttons_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/buttons.html')
+
+
+@login_required
+def dropdowns_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/dropdowns.html')
+
+
+@login_required
+def progress_bars_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/progress-bars.html')
+
+
+@login_required
+def toggles_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/toggles.html')
+
+
+@login_required
+def typography_view(request):
+    return render(request, 'sections/attention-catchers/templates/sections/elements/typography.html')
+
+
+@login_required
+def alerts_view(request):
+    return render(request, 'sections/attention-catchers/alerts.html')
+
+
+@login_required
+def modals_view(request):
+    return render(request, 'sections/attention-catchers/modals.html')
+
+@login_required
+def tooltips_view(request):
+    return render(request, 'sections/attention-catchers/tooltips.html')
+
+
 class TaskListView(ListView):
     model = Task
     template_name = "tasks/task_list.html"
