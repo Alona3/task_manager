@@ -97,8 +97,13 @@ def ajax_task_list(request):
 
 
 @login_required
+def index_view(request):
+  return render(request, '/tasks/index.html')
+
+
+@login_required
 def about_us_view(request):
-    return render(request, 'pages/about_us.html')
+    return render(request, 'tasks/pages/about_us.html')
 
 
 @login_required

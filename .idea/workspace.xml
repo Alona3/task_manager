@@ -5,7 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de9a12e-bb69-4a80-ae34-16e3375755a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_theme_material_kit.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_theme_material_kit.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_theme_material_kit.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_theme_material_kit.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_theme_material_kit.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blank.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_manager/templatetags/theme_material_kit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/templates/accounts/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/templates/accounts/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/templates/sections/page-sections/hero-sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/migrations/0002_project_tag_task_created_at_task_status_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/navigation-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/includes/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/layouts/base-fullscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/layouts/base-presentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/layouts/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/completed_tasks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/pending_tasks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/position_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/position_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/position_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/task_type_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/tasktype_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/tasktype_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/worker_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/worker_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/worker_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/templates/tasks/worker_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/tasks/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/sections/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/sections/presentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +81,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2sYznTtOQLGHDMFaTFF3nS7lPDo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,8 +95,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/HP/PyCharm/pythonProject/pythonProject19/task_manager",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,6 +110,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager" />
+      <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager\tasks\templates" />
+      <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager\task_manager" />
+      <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager\tasks\templates\sections\page-sections" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager\tasks\static" />
       <recent name="C:\Users\HP\PyCharm\pythonProject\pythonProject19\task_manager\tasks\templates" />

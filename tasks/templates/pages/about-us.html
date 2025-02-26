@@ -20,10 +20,10 @@
             <button type="submit" class="btn bg-white text-dark">Create Account</button>
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
-              <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+              <a href="javascript:"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
+              <a href="javascript:"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
+              <a href="javascript:"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
+              <a href="javascript:"><i class="fab fa-google-plus text-lg text-white"></i></a>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
               </div>
               <div class="card-body text-center">
                 <h5 class="font-weight-normal">
-                  <a href="javascript:;">Get insights on Search</a>
+                  <a href="javascript:">Get insights on Search</a>
                 </h5>
                 <p class="mb-0">
                   Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards.
@@ -106,7 +106,7 @@
             <div class="card card-profile mt-4">
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                  <a href="javascript:;">
+                  <a href="javascript:">
                     <div class="p-3 pe-md-0">
                       <img class="w-100 border-radius-md shadow-lg" src="{% static "assets/img/team-5.jpg" %}" alt="image">
                     </div>
@@ -126,7 +126,7 @@
             <div class="card card-profile mt-lg-4 mt-5">
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                  <a href="javascript:;">
+                  <a href="javascript:">
                     <div class="p-3 pe-md-0">
                       <img class="w-100 border-radius-md shadow-lg" src="{% static "assets/img/bruce-mars.jpg" %}" alt="image">
                     </div>
@@ -148,7 +148,7 @@
             <div class="card card-profile mt-4 z-index-2">
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                  <a href="javascript:;">
+                  <a href="javascript:">
                     <div class="p-3 pe-md-0">
                       <img class="w-100 border-radius-md shadow-lg" src="{% static "assets/img/ivana-squares.jpg" %}" alt="image">
                     </div>
@@ -168,7 +168,7 @@
             <div class="card card-profile mt-lg-4 mt-5 z-index-2">
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                  <a href="javascript:;">
+                  <a href="javascript:">
                     <div class="p-3 pe-md-0">
                       <img class="w-100 border-radius-md shadow-lg" src="{% static "assets/img/ivana-square.jpg" %}" alt="image">
                     </div>
@@ -243,7 +243,9 @@
               <div class="col-8">
                 <div class="input-group input-group-outline">
                   <label class="form-label">Email Here...</label>
-                  <input type="text" class="form-control mb-sm-0">
+                  <label>
+                    <input type="text" class="form-control mb-sm-0">
+                  </label>
                 </div>
               </div>
               <div class="col-4 ps-0">
@@ -289,11 +291,9 @@
       var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
 
       // is scroll position greater than element position? (is element in view?)
-      if (scrollPosition > elementPosition) {
-        return true;
-      }
+      return scrollPosition > elementPosition;
 
-      return false;
+      
     }
 
     var animateComplete = true;
@@ -325,7 +325,7 @@
               countUp2.start();
             } else {
               console.error(countUp2.error);
-            };
+            }
           }
           animateComplete = false;
         }
@@ -346,8 +346,7 @@
   <script>
     if (document.getElementsByClassName('page-header')) {
       window.onscroll = debounce(function() {
-        var scrollPosition = window.pageYOffset;
-        var bgParallax = document.querySelector('.page-header');
+          var bgParallax = document.querySelector('.page-header');
         var oVal = (window.scrollY / 3);
         bgParallax.style.transform = 'translate3d(0,' + oVal + 'px,0)';
       }, 6);
