@@ -1,0 +1,146 @@
+{% extends 'layouts/base-presentation.html' %}
+
+{% block title %} Presentation {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} index-page {% endblock body_class %}
+
+{% load crispy_forms_filters %}
+
+{% block content %}
+
+<section class="projects-table py-6">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-left mt-5" style="color: #ce0f9c;">Project List</h2>
+    </div>
+
+    <div class="d-flex justify-content-start mb-4">
+      <form method="GET" action="" class="d-flex search-form">
+        {% csrf_token %}
+        <div class="input-group w-100">
+          {{ search_form|crispy }}
+          <button
+            type="submit"
+            class="btn d-flex align-items-center justify-content-center"
+            style="border: none; background: white; padding: 0 1rem; border-left: 1px solid #ced4da; border-radius: 0.5rem; margin-left: 2px;"
+          >
+            <i class="fa fa-search" style="color: #ce0f9c; font-size: 1.2rem;"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    {% if project_list %}
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Priority</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for project in project_list %}
+            <tr onclick="window.location.href='{% url 'management:project-detail' project.id %}'" style="cursor: pointer;">
+              <td>{{ project.name }}</td>
+              <td>{{ project.get_priority_display }}</td>
+              <td class="{{ project.is_completed|yesno:'text-success,text-danger' }}">
+                {{ project.is_completed|yesno:"Completed,Pending" }}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>There are no projects yet</p>
+    {% endif %}
+  </div>
+</section>
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  tr {
+    transition: background-color 0.3s;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  tr[onclick] {
+    cursor: pointer;
+  }
+
+  .text-success {
+    color: #28a745;
+  }
+
+  .text-danger {
+    color: #e74c3c;
+  }
+
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/plugins/countup.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/rellax.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/tilt.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+
+{% endblock javascripts %}

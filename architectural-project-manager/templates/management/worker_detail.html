@@ -1,0 +1,176 @@
+{% extends 'layouts/base-presentation.html' %}
+
+{% block title %} Presentation {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} index-page {% endblock body_class %}
+
+{% block content %}
+
+<section class="worker-details py-5">
+  <div class="container">
+    <h2 class="text-left mb-4 mt-6" style="color: #ce0f9c;">Worker Details</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="card worker-card">
+          <div class="card-body">
+
+            <h5 class="card-title">{{ worker.first_name }} {{ worker.last_name }}</h5>
+            <p class="card-text"><strong>Username: </strong>{{ worker.username }}</p>
+            <p class="card-text"><strong>Email: </strong>
+              {% if worker.email %}
+                {{ worker.email }}
+              {% else %}
+                {{ worker.first_name }}
+              {% endif %}
+            </p>
+
+            <p class="card-text"><strong>Last Login: </strong>
+              {% if worker.last_login %}
+                {{ worker.last_login }}
+              {% else %}
+                {{ worker.first_name }} has not logged in yet.
+              {% endif %}
+            </p>
+
+            <p class="card-text"><strong>Position: <a href="{% url 'management:position-detail' worker.position.id %}">{{ worker.position.name }}</a></strong></p>
+
+            <p class="card-text"><strong>Team: </strong>
+              {% if worker.team %}
+                <strong><a href="{% url 'management:team-detail' worker.team.id %}">{{ worker.team.name }}</a></strong>
+              {% else %}
+                {{ worker.first_name }} is currently not assigned to any team.
+              {% endif %}
+            </p>
+
+            <div class="button-wrapper mt-4">
+              <a href="{% url 'management:worker-update' worker.id %}" class="btn btn-primary">Update</a>
+              <a href="{% url 'management:worker-delete' worker.id %}" class="btn btn-danger">Delete</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.worker-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.worker-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.worker-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ce0f9c;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px; /* Додає відстань між кнопками */
+  justify-content: flex-end; /* Вирівнює кнопки праворуч */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #ce0f9c;
+  border-color: #ce0f9c;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #ac0d84;
+  border-color: #ac0d84;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+</style>
+
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/plugins/countup.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/rellax.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/tilt.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+
+{% endblock javascripts %}
+
