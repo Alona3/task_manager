@@ -1,6 +1,6 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-from architectural_project_manager.settings import base
+from settings import base
 from management.validators import validate_future_date, validate_no_special_characters
 from django.core.validators import MinLengthValidator
 

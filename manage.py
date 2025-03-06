@@ -8,7 +8,7 @@ from decouple import config
 def main():
     """Run administrative tasks."""
     os.environ.setdefault(
-        "DJANGO_SETTINGS_MODULE", config("DJANGO_SETTINGS_MODULE", default="architectural_project_manager.settings.development")
+        "DJANGO_SETTINGS_MODULE", config("DJANGO_SETTINGS_MODULE", default="task_manager.settings.development")
     )
     try:
         from django.core.management import execute_from_command_line

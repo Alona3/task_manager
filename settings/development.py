@@ -1,4 +1,4 @@
-from architectural_project_manager.settings.base import *
+from .base import *
 
 
 ALLOWED_HOSTS = []
