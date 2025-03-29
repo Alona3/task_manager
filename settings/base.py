@@ -18,7 +18,7 @@ from django.conf.global_settings import AUTH_USER_MODEL, STATICFILES_DIRS, INTER
 from django.template.defaultfilters import default
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -62,7 +62,7 @@ ROOT_URLCONF = "architectural_project_manager.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"],
+        "DIRS": [BASE_DIR / "architectural_project_manager/templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -71,7 +71,6 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 "management.context_processors.cfg_assets_root",
-                'whitenoise.middleware.WhiteNoiseMiddleware',
             ],
         },
     },
