@@ -20,9 +20,9 @@ from django.urls import path, include
 from management.views import index
 
 urlpatterns = [
-    path("", index, name="index"),
     path("admin/", admin.site.urls),
-    path("management/", include("management.urls", namespace="management")),
+    path("", include("management.urls", namespace="management")),
+    #path("management/", include("management.urls", namespace="management")),
     path("accounts/", include("django.contrib.auth.urls")),
     path("__debug__/", include("debug_toolbar.urls")),
 ]

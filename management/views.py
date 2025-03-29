@@ -19,7 +19,7 @@ from management.forms import (
 )
 
 
-@login_required
+#@login_required
 def index(request: HttpRequest) -> HttpResponse:
     num_teams = Team.objects.count()
     num_workers = Worker.objects.count()

@@ -62,7 +62,7 @@ ROOT_URLCONF = "architectural_project_manager.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "architectural_project_manager/templates"],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -129,7 +129,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "management.Worker"
 
-LOGIN_REDIRECT_URL = "/management/"
+LOGIN_REDIRECT_URL = "/"
 
 INTERNAL_IPS = [
     "127.0.0.1",
