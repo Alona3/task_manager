@@ -1,6 +1,8 @@
 from architectural_project_manager.settings.base import *
 
 
+DEBUG = False
+
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 RENDER_EXTERNAL_HOSTNAME = config("RENDER_EXTERNAL_HOSTNAME")
