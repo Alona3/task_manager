@@ -27,6 +27,14 @@ python manage.py runserver
 - 💾 **PostgreSQL**  
 - 🎨 **Bootstrap / Tailwind CSS**  
 
+
+## 🌍 Live Demo
+**Check out the deployed version of Task Manager:**
+```bash
+https://task-manager-a1ma.onrender.com
+```
+
+
 ## 🔒 Default Login Credentials  
 - **Username:** `user1234`  
 - **Password:** `user1234`  
