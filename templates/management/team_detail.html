@@ -1,0 +1,218 @@
+{% extends 'layouts/base-presentation.html' %}
+
+{% block title %} Presentation {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} index-page {% endblock body_class %}
+
+{% block content %}
+
+<section class="team-details py-5">
+  <div class="container">
+    <h2 class="text-left mb-4 mt-6" style="color: #ce0f9c;">Team Details</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="card team-card">
+          <div class="card-body">
+
+            <h5 class="card-title">{{ team.name }}</h5>
+            <p class="card-text"><strong>Team Lead: </strong>
+              {% if team.team_lead %}
+                <a href="{% url 'management:worker-detail' team.team_lead.id %}">{{ team.team_lead }}</a>
+              {% else %}
+                This team does not have a team lead assigned.
+              {% endif %}
+            </p>
+
+            <div class="card-meta">
+
+              <div class="d-flex justify-content-between">
+
+                <div class="team-members">
+                  <p><strong>List of Members:</strong></p>
+                  {% if team.members.all %}
+                    <ul>
+                      {% for worker in team.members.all %}
+                        <li><a href="{% url 'management:worker-detail' worker.id %}">{{ worker }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <p>This team has no members.</p>
+                  {% endif %}
+                </div>
+
+                <div class="team-projects">
+                  <p><strong>List of Projects:</strong></p>
+                  {% if team.projects.all %}
+                    <ul>
+                      {% for project in team.projects.all %}
+                        <li><a href="{% url 'management:project-detail' project.id %}">{{ project.name }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <p>This team is not assigned to any project.</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+
+            <!-- Додаємо кнопки -->
+            <div class="button-wrapper mt-4">
+              <a href="{% url 'management:team-update' team.id %}" class="btn btn-primary">Update</a>
+              <a href="{% url 'management:team-delete' team.id %}" class="btn btn-danger">Delete</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.team-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.team-card .card-meta p {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  color: #444;
+}
+
+.team-members, .team-projects {
+  width: 48%;
+}
+
+.team-card .card-meta ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.team-card .card-meta ul li {
+  padding: 5px 0;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team-members, .team-projects {
+    width: 100%;
+  }
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ce0f9c;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px; /* Додає відстань між кнопками */
+  justify-content: flex-end; /* Вирівнює кнопки праворуч */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #ce0f9c;
+  border-color: #ce0f9c;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #ac0d84;
+  border-color: #ac0d84;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+</style>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/plugins/countup.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/rellax.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/tilt.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+
+{% endblock javascripts %}

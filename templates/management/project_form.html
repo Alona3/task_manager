@@ -1,0 +1,113 @@
+{% extends 'layouts/base-presentation.html' %}
+
+{% block title %} Presentation {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} index-page {% endblock body_class %}
+
+{% load crispy_forms_filters %}
+
+{% block content %}
+
+<section class="create-project py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 mt-6" style="color: #ce0f9c;">{{ object|yesno:"Update current,Create new" }} Project</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <div class="card create-project-card">
+          <div class="card-body">
+
+            <h5 class="card-title">{{ object|yesno:"Modify Project Information,Enter Project Details" }}</h5>
+            <form action="" method="post" novalidate>
+              {% csrf_token %}
+              <div class="form-group">
+                {{ form|crispy }}
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" style="background-color: #ce0f9c; border-color: #ce0f9c;">
+                {{ object|yesno:"Save changes,Create" }}
+              </button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.create-project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-project-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.create-project-card form {
+  margin-top: 20px;
+}
+
+.create-project-card .btn {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.create-project-card .btn:hover {
+  background-color: #9c0f73;
+  border-color: #9c0f73;
+}
+</style>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/plugins/countup.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/rellax.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/tilt.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+
+{% endblock javascripts %}

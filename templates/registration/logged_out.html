@@ -1,0 +1,123 @@
+{% extends 'layouts/base-fullscreen.html' %}
+
+{% block title %} Sign IN {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} sign-in-illustration {% endblock body_class %}
+
+{% block content %}
+{% include "includes/navigation-auth.html" %}
+{% load crispy_forms_filters %}
+
+<section>
+  <div class="page-header section-height-100">
+    <div class="container-fluid px-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto d-flex align-items-center">
+          <div class="card card-plain text-center">
+            <div class="card-header pb-0">
+              <h4 class="font-weight-bolder text-primary">Logged Out</h4>
+              <p class="mb-3">
+                You have successfully logged out of your account.
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="{% url 'login' %}" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">
+                Log In Again
+              </a>
+            </div>
+            <div class="card-footer text-center pt-0 px-lg-2 px-1">
+              <p class="mb-4 text-sm mx-auto">
+                Thank you for visiting. See you again soon!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 bg-image">
+          <div class="welcome-text-container">
+            <h1 class="welcome-text">GOODBYE</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-image {
+  background-image: url('{{ ASSETS_ROOT }}/img/mike-yukhtenko-NB9XC3h_jWo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  flex: 1;
+}
+
+.welcome-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.welcome-text {
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.card-plain {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header h4 {
+  color: #ce0f9c;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-lg-6 {
+  position: relative;
+}
+
+.col-lg-6:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-plain {
+  max-width: 500px;
+  width: 100%;
+}
+</style>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+
+{% endblock javascripts %}

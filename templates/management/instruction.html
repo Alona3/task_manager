@@ -1,0 +1,142 @@
+{% extends 'layouts/base-presentation.html' %}
+
+{% block title %} Presentation {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block body_class %} index-page {% endblock body_class %}
+
+{% block content %}
+
+<section class="instruction-details py-7">
+  <div class="container">
+    <div class="card instruction-card">
+      <div class="card-body">
+        <h2 class="card-title mb-4" style="color: #ce0f9c;">Instruction for Using the Architectural Project Manager Platform</h2>
+        <p>
+          The Architectural Project Manager platform is designed for managing projects within an architectural company.
+          Only registered and logged-in users can access the site. Any employee with an active account can create new accounts for other workers.
+        </p>
+        <p>
+          The Home Page provides an overview of the system with information on the total number of workers, projects, and teams.
+          These numbers are clickable links that lead to dedicated pages with detailed lists.
+        </p>
+        <h4>Navigation Bar</h4>
+        <p>The platform features a top navigation bar with several key buttons:</p>
+        <ul>
+          <li>
+            <strong>Catalog Button:</strong> Displays a dropdown menu containing links to lists of various system objects, such as worker positions,
+            project types, workers, teams, and projects. Each list item is a link to a detailed information page for the corresponding object.
+          </li>
+          <li>
+            <strong>Actions Button:</strong> Provides access to pages for creating new records, such as adding a new project, registering a worker, or defining a team.
+          </li>
+          <li>
+            <strong>Logout Button:</strong> Allows users to log out of their account and redirects them to a logout page, which includes a link for re-login if needed.
+          </li>
+          <li>
+            <strong>Home Page Button:</strong> Redirects users back to the platform's main page.
+          </li>
+        </ul>
+        <h4>Detailed Information Pages</h4>
+        <p>
+          Each detailed information page includes all relevant data about a specific object, such as a worker, project, or team. These pages also feature
+          buttons for updating or deleting the corresponding records. For example, a worker's detail page may have options to edit their profile
+          or remove their record from the system.
+        </p>
+        <h4>Footer</h4>
+        <p>
+          The platform’s footer, located at the bottom of the site, contains useful links and additional information.
+          This may include company details, support contact information, or links to platform documentation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.instruction-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.instruction-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.instruction-card p, .instruction-card ul {
+  font-size: 1rem;
+  color: #555;
+}
+
+.instruction-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.instruction-card ul li {
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+</style>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+
+  <script src="{{ ASSETS_ROOT }}/js/plugins/countup.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/rellax.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/tilt.min.js"></script>
+  <script src="{{ ASSETS_ROOT }}/js/plugins/choices.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="{{ ASSETS_ROOT }}/js/soft-design-system.min.js?v=1.0.1" type="text/javascript"></script>
+  <script type="text/javascript">
+    if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+        countUp.start();
+      } else {
+        console.error(countUp.error);
+      }
+    }
+    if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+        countUp1.start();
+      } else {
+        console.error(countUp1.error);
+      }
+    }
+    if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+        countUp2.start();
+      } else {
+        console.error(countUp2.error);
+      };
+    }
+  </script>
+
+{% endblock javascripts %}
