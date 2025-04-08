@@ -1,7 +1,7 @@
 from .base import *
 
 
-ALLOWED_HOSTS = ["task-manager-a1ma.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "task-manager-a1ma.onrender.com"]
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
