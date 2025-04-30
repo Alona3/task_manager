@@ -1,0 +1,2846 @@
+[
+    {
+        "model": "management.Position",
+        "pk": 20,
+        "fields": {
+            "name": "3D Visualizer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 18,
+        "fields": {
+            "name": "Architect"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 26,
+        "fields": {
+            "name": "BIM Coordinator"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 30,
+        "fields": {
+            "name": "Construction Manager"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 28,
+        "fields": {
+            "name": "Facade Engineer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 19,
+        "fields": {
+            "name": "Graphic Designer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 24,
+        "fields": {
+            "name": "Interior Designer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 32,
+        "fields": {
+            "name": "Landscape Architect"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 29,
+        "fields": {
+            "name": "Lighting Designer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 31,
+        "fields": {
+            "name": "Project Coordinator"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 27,
+        "fields": {
+            "name": "Restoration Specialist"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 21,
+        "fields": {
+            "name": "Spatial Analyst"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 23,
+        "fields": {
+            "name": "Structural Engineer"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 25,
+        "fields": {
+            "name": "Sustainability Specialist"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 22,
+        "fields": {
+            "name": "Urban Planner"
+        }
+    },
+    {
+        "model": "management.Position",
+        "pk": 33,
+        "fields": {
+            "name": "admin"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 2,
+        "fields": {
+            "name": "Commercial Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 10,
+        "fields": {
+            "name": "Educational Facility Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 9,
+        "fields": {
+            "name": "Hospitality Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 8,
+        "fields": {
+            "name": "Industrial Facility Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 3,
+        "fields": {
+            "name": "Infrastructure Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 7,
+        "fields": {
+            "name": "Landscape Architecture Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 4,
+        "fields": {
+            "name": "Mixed-use Development"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 6,
+        "fields": {
+            "name": "Renovation Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 1,
+        "fields": {
+            "name": "Residential Project"
+        }
+    },
+    {
+        "model": "management.ProjectType",
+        "pk": 5,
+        "fields": {
+            "name": "Urban Planning Project"
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 48,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$aI2JPMjOf0dygRUGHY6fG1$qtR7cXHfmC8/ZDSwcSX2xxCrZOMwbzWtpf9LU5Slj8A=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "katherine_zubchenko",
+            "first_name": "Katherine",
+            "last_name": "Zubchenko",
+            "email": "katherine.zubchenko@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:54:16+00:00",
+            "team_id": 1,
+            "position_id": 20
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 52,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$2cK9CjKPcy6zKZqlgeNByp$PCYoRkZPoUhXoOfSwr5xPjXhnyRlou9EshxeMiQduaw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "alex_moroz",
+            "first_name": "Alex",
+            "last_name": "Moroz",
+            "email": "alex.moroz@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:56:50+00:00",
+            "team_id": 1,
+            "position_id": 20
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 57,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$YSZL6LoXj929ZrHNtZENVd$7Wg4ZEyzMhNWdn7O/XuL0aghv0XI9z44B4rzfyPVKmc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "george_chorny",
+            "first_name": "George",
+            "last_name": "Chorny",
+            "email": "george.chorny@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 14:03:40.360304+00:00",
+            "team_id": 2,
+            "position_id": 20
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 70,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$JeuTZ9ASzg2A6Jv4GHgeP5$KHcs+VxmfL+Z9Bd9pUo2HLc5qYUknAkf4uZFwtWvBHk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "michael_roberts",
+            "first_name": "Michael",
+            "last_name": "Roberts",
+            "email": "michael.roberts@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:24:32.689992+00:00",
+            "team_id": 4,
+            "position_id": 20
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 126,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$IcLEDyfYrAsHeDeBHiTohb$tZIC4UcaC2jfT7nYVoF54cdHr3ppoSEWTyI3XJ+Y6i0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "edward_black",
+            "first_name": "Edward",
+            "last_name": "Black",
+            "email": "edward.black@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-02 20:31:14.804197+00:00",
+            "team_id": null,
+            "position_id": 20
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 46,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$j6PB9njdKeohGnki30HlSO$sOgCabyV2mYLL8pZkOWPPvH3ps6gEPozVSph5Aj62l8=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "elena_parkhomenko",
+            "first_name": "Elena",
+            "last_name": "Parkhomenko",
+            "email": "elena.parkhomenko@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:52:57+00:00",
+            "team_id": 1,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 47,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$oNFL97TzDg70JwL39WBWvj$riU+2F2pRXBSBwKq6Fzqa3gZenmCFAIpjCQK5WQPuTM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ivan_savchuk",
+            "first_name": "Ivan",
+            "last_name": "Savchuk",
+            "email": "ivan.savchuk@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:53:41+00:00",
+            "team_id": 1,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 59,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$kXKVeWJxz3FALkw2A4fmr6$KPWqgQVARbkI7Nf5WpbxJm6Z6Hg4Y16fPV+cjbGic/g=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mark_stepanov",
+            "first_name": "Mark",
+            "last_name": "Stepanov",
+            "email": "mark.stepanov@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 14:05:38.839517+00:00",
+            "team_id": 2,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 62,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$WbvYo1eMkMMwy5H6IIjTAx$k6hfsFkRpTLC+hRIjSDYeVDZGFCyel2BHWQANlTkkx4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "david_snow",
+            "first_name": "David",
+            "last_name": "Snow",
+            "email": "david.snow@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 16:56:41.500308+00:00",
+            "team_id": 3,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 66,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$OounsixWbydH0ps92WhcHP$PilcPvV4If64nR7SazbqqVzFpRc/crFlr9f44qrfIJ0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "matthew_lane",
+            "first_name": "Matthew",
+            "last_name": "Lane",
+            "email": "matthew.lane@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:12:18.611161+00:00",
+            "team_id": 3,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 76,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$dUipLqNEmpza5rjgenSuay$XU0zt10ZBxWH7CrqHMDtHL9ZowNyeyUKtV6ko1sYJ0s=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "daniel_lee",
+            "first_name": "Daniel",
+            "last_name": "Lee",
+            "email": "daniel.lee@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:43:34.230564+00:00",
+            "team_id": 5,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 84,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$xeFB8WL6icVxk62A5aIGS1$1qR30uMJG4Y2/GooioC5LN+y5hBSsLMC2d4RonpnLPo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "liam_martin",
+            "first_name": "Liam",
+            "last_name": "Martin",
+            "email": "liam.martin@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:53:55.195257+00:00",
+            "team_id": 7,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 89,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$7YA6oMNXpfrTraYJ9ZYHY2$P8vpKVbihUImkRvlVi2vmH3xbr9vKCLzcq2fmMAoNlM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "grace_jackson",
+            "first_name": "Grace",
+            "last_name": "Jackson",
+            "email": "grace.jackson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:00:52.961662+00:00",
+            "team_id": 6,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 98,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$5EVwsXNcOua8eIXYF3S05o$OYd5Jg0dXkCX6Ay9IhDpFQebeQh9zltrUEM2EuIidgw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "natalie_perry",
+            "first_name": "Natalie",
+            "last_name": "Perry",
+            "email": "natalie.perry@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:09:13.544708+00:00",
+            "team_id": 10,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 104,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$T0ZRrY9rCDy3f0PlW4HNeg$ISFEeTMeQB1L/6rcm+Sj3oItMq+8xxJoOJm823I9GOU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "zoe_patterson",
+            "first_name": "Zoe",
+            "last_name": "Patterson",
+            "email": "zoe.patterson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:14:25.787772+00:00",
+            "team_id": 9,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 110,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$5hapJgCWYqBJeJiB2mAlVy$hNlJHlhbfWl3lYOjCe3kTeScJKCiQSIv+8iYSNzd7Y8=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "dylan_foster",
+            "first_name": "Dylan",
+            "last_name": "Foster",
+            "email": "dylan.foster@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:19:11.617578+00:00",
+            "team_id": 8,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 125,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$FvyDqB8nH8WdfxY8HUlfPV$s9JslPrw6CLq9aBR989NL6ff2YdXGzd0sUEswzearcg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "diana_white",
+            "first_name": "Diana",
+            "last_name": "White",
+            "email": "diana.white@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-02 20:30:27.097115+00:00",
+            "team_id": null,
+            "position_id": 18
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 64,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$qsd5Fg7sdZxFlu10mEIxYp$Rq79ZJz86TqINGMKC4CeBHgp8qcUoZY1BTXiJi+fBEU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "andrew_kovalsky",
+            "first_name": "Andrew",
+            "last_name": "Kovalsky",
+            "email": "andrew.kovalsky@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:09:46.385229+00:00",
+            "team_id": 3,
+            "position_id": 26
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 87,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$JdLznOe8qa3IOvRcirqRTn$k4yigY/607W1FysRTiw2posNyzUl0CTWZVv/DktlV8w=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "emma_miller",
+            "first_name": "Emma",
+            "last_name": "Miller",
+            "email": "emma.miller@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:56:15.609346+00:00",
+            "team_id": 7,
+            "position_id": 26
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 105,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$XYFcCr7yOBAa1lx1O5QwXB$QWWks2VyADEpFQYYSC8HYDz/KEz3A2sVivLj2nAlT24=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "isaac_adams",
+            "first_name": "Isaac",
+            "last_name": "Adams",
+            "email": "isaac.adams@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:15:05.410608+00:00",
+            "team_id": 9,
+            "position_id": 26
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 111,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$EfFOPe5MzfeKWb10LkxyG8$Isr1MtnBLOJlOHW6EGLPewRQpPgTuHBF7IhJgnVl0Q8=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "hannah_bailey",
+            "first_name": "Hannah",
+            "last_name": "Bailey",
+            "email": "hannah.bailey@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:19:45.705401+00:00",
+            "team_id": 8,
+            "position_id": 26
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 78,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$j1Gy1yLqAjFEwYft9wki9j$3hyOT36xrbycq67PCRC79sNApBap57cENzbyPwwFy/s=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jacob_hall",
+            "first_name": "Jacob",
+            "last_name": "Hall",
+            "email": "jacob.hall@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:45:13.857976+00:00",
+            "team_id": 5,
+            "position_id": 30
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 92,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$U93UjDioPrFDvGdYUXIbxo$OIjra8MFMW7ZkIPVrLIL0KBCQorzxrWvp8hwZknGDzk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mason_white",
+            "first_name": "Mason",
+            "last_name": "White",
+            "email": "mason.white@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:03:21.599144+00:00",
+            "team_id": 6,
+            "position_id": 30
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 96,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$RE1HJbWrRSKyFX2vnFE5PJ$Wsd56MnCoiQiaP9KLyih826kyJo+JTnfO8LthEN93I0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "elena_price",
+            "first_name": "Elena",
+            "last_name": "Price",
+            "email": "elena.price@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:07:59.086036+00:00",
+            "team_id": 10,
+            "position_id": 30
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 79,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$Qqjou2NnhXKBlQ8cY5EuPc$FA0z0dgXImP6VWYSi/26+WHCrJrSeRuaDH8Na/8ARj8=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "mia_turner",
+            "first_name": "Mia",
+            "last_name": "Turner",
+            "email": "mia.turner@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:45:55.964654+00:00",
+            "team_id": 5,
+            "position_id": 28
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 107,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$EXPKdl61LxlTsXnOn70wrB$H8BI6/WmVgM0BZffNVlYtHwT995uWKVc08VNXuwp5go=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "logan_howard",
+            "first_name": "Logan",
+            "last_name": "Howard",
+            "email": "logan.howard@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:16:28.204597+00:00",
+            "team_id": 9,
+            "position_id": 28
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 112,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$wAqKvWchiPVyIqVZI1tB1b$18UGF1IDkHBFxI6lTKtpbEjeo8HH8MGhqIOt+QBCX4k=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "carter_cooper",
+            "first_name": "Carter",
+            "last_name": "Cooper",
+            "email": "carter.cooper@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:20:24.189769+00:00",
+            "team_id": 8,
+            "position_id": 28
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 49,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$nVDV5gviYQuIIHrxg5w3pW$Vhs2oZm3wC5ILb/qMsKIB4y84HwrBAPx3gmI6+zfgSI=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "roman_lavrin",
+            "first_name": "Roman",
+            "last_name": "Lavrin",
+            "email": "roman.lavrin@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:54:49+00:00",
+            "team_id": 1,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 51,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$RZh8kQ38a4qWGBnue1lxC4$Wvc1UV5aKRZHytUT6L2xnBEwpJ0N7fbG+p3UHns5+3w=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "marina_golovach",
+            "first_name": "Marina",
+            "last_name": "Golovach",
+            "email": "marina.golovach@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:56:14+00:00",
+            "team_id": 1,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 68,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$vhqNHqKM0GRFc7KyuObGrs$bp6aCXSHrpYed6E7Wx4LAdUF2E1GUCFJUwFiVkqbPK0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "james_moore",
+            "first_name": "James",
+            "last_name": "Moore",
+            "email": "james.moore@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:22:50.754323+00:00",
+            "team_id": 4,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 94,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$d7umHz7SaWphmTOKIK53g6$0XHgi5UuIxWWmmXFZFcBg5Pz08EEsDIKzR4X20ai3rs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "oliver_wilson",
+            "first_name": "Oliver",
+            "last_name": "Wilson",
+            "email": "oliver.wilson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:04:34.281759+00:00",
+            "team_id": 6,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 103,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$s8TevYPnnAzT1755w42Zmf$uYBw0k0D7VqRXxoUR1noAZCcXmMcCmFMo1Sw6D0lNOo=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "noah_bell",
+            "first_name": "Noah",
+            "last_name": "Bell",
+            "email": "noah.bell@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:13:53.553799+00:00",
+            "team_id": 9,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 123,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$aIniAEE1kHVnmhKds6M9GS$DcbC2pWWS3gJJ06QVc3jDi+9WqbfyAsmLC/+vPXAKHM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "bob_johnson",
+            "first_name": "Bob",
+            "last_name": "Johnson",
+            "email": "bob.johnson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-02 20:28:31.471489+00:00",
+            "team_id": null,
+            "position_id": 19
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 67,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$GZwoSyScTCHmxCFXI7N4Lp$JGa0NwQ/T+y5VAmtlgnYJSml0975d/Ian5aejGG32JU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sophia_harrison",
+            "first_name": "Sophia",
+            "last_name": "Harrison",
+            "email": "sophia.harrison@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:21:24.403335+00:00",
+            "team_id": 4,
+            "position_id": 24
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 71,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$7xwrYX1fTpfXtO0HNKiM3B$bw2WQt99s8Mdh2d/Q1tK40Pg+5PcAhq2Xr7liZxffjc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "emily_davis",
+            "first_name": "Emily",
+            "last_name": "Davis",
+            "email": "emily.davis@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:29:12.263128+00:00",
+            "team_id": 4,
+            "position_id": 24
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 99,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$t7f4PnwAxAbtenYsIORe9g$uV6gPJ0GZ16fct5vQbn9D026xbrv2EJMOY3ck5bFsf4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sophia_bennett",
+            "first_name": "Sophia",
+            "last_name": "Bennett",
+            "email": "sophia.bennett@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:09:58.462865+00:00",
+            "team_id": 10,
+            "position_id": 24
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 108,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$4fzY5Qe3mW8EzWITZ1Sfq0$IPZsoKIW9JQeAGckMNpDylqkJHkwQyqCxV5tqc8m/+s=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "leah_griffin",
+            "first_name": "Leah",
+            "last_name": "Griffin",
+            "email": "leah.griffin@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:17:03.554277+00:00",
+            "team_id": 9,
+            "position_id": 24
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 114,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$lrywI9QefI83OozSnsI5Yc$cPmsQbNBcTZj8NvkQblns2u2QTHN5l1FgdkxqFdy4Tk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "luke_mitchell",
+            "first_name": "Luke",
+            "last_name": "Mitchell",
+            "email": "luke.mitchell@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:21:46.379580+00:00",
+            "team_id": 8,
+            "position_id": 24
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 55,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$aMjc4libCsJgJppvYK1E0J$bl79XdTeWKo3Be3ou3x4pDZM/mznxbx9xSrHjkpGkyU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "daniel_green",
+            "first_name": "Daniel",
+            "last_name": "Green",
+            "email": "daniel.green@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 14:01:11.079367+00:00",
+            "team_id": 2,
+            "position_id": 32
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 69,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$DBPHGw82x69hw1bCwEr8XZ$ZMR7emIBzFHctZHZoy/v51hO1gvQUb7U1dhqUBeDhd4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "olivia_white",
+            "first_name": "Olivia",
+            "last_name": "White",
+            "email": "olivia.white@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:23:45.422912+00:00",
+            "team_id": 4,
+            "position_id": 29
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 80,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$mOcwnPCxHDRMANCbjBLL4Z$jeboiAiJserhxRFO87fhgmPMSG0g1lRd203eKeXlwVs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ethan_king",
+            "first_name": "Ethan",
+            "last_name": "King",
+            "email": "ethan.king@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:46:44.470640+00:00",
+            "team_id": 5,
+            "position_id": 29
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 86,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$noSn6hYtqpDjFIRH7IQxOC$4xEJxBxg63MggDAiw4zEiEtPgwGWvLUtlzjC86xTXQQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "william_anderson",
+            "first_name": "William",
+            "last_name": "Anderson",
+            "email": "william.anderson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:55:30.473830+00:00",
+            "team_id": 7,
+            "position_id": 29
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 102,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$gIRwkSZVjjXOZ47Ih9cE4s$PfJ+B/SlRoDpt8wF7rqX5I2aHy/aiEqFrMFdqMBnDNM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "victoria_evans",
+            "first_name": "Victoria",
+            "last_name": "Evans",
+            "email": "victoria.evans@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:13:18.593446+00:00",
+            "team_id": 9,
+            "position_id": 29
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 115,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$6f0vvVR9Ozq6mS3bcI1vyS$g/6U6SJEgzZ8uQKONt8bptwWIdJRLrBaJEy0S48JU/w=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "claire_reed",
+            "first_name": "Claire",
+            "last_name": "Reed",
+            "email": "claire.reed@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:22:17.632171+00:00",
+            "team_id": 8,
+            "position_id": 29
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 63,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$8mnAYT26JxAQhrRSeOk0M0$YR9FRMWlhqCPa5ehwtNKFQHdGAuVvKLejWc8jrepbOw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "emma_sharp",
+            "first_name": "Emma",
+            "last_name": "Sharp",
+            "email": "emma.sharp@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:08:58.275819+00:00",
+            "team_id": 3,
+            "position_id": 31
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 95,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$x3PjYwXIWQK0A5VeJV5Mie$2GGDWz9SrATuKiBZ4j87gO3BeDSOqLxghQyCijxzk2A=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ryan_richards",
+            "first_name": "Ryan",
+            "last_name": "Richards",
+            "email": "ryan.richards@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:07:12.901131+00:00",
+            "team_id": 10,
+            "position_id": 31
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 113,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$wNrkc5kVOLVMYzotp4hZBw$ESmcfMvGtL26uwgTHrjJDR20U3S66o5zBewWMKIIwic=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lily_morris",
+            "first_name": "Lily",
+            "last_name": "Morris",
+            "email": "lily.morris@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:21:08.548216+00:00",
+            "team_id": 8,
+            "position_id": 31
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 122,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$6QQ5BHO8BbDH9YUm4lhoF2$ql6xA7LOqev7+8yJaQZIKQlNFVJ6OBM67Eour5u8slg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "alice_smith",
+            "first_name": "Alice",
+            "last_name": "Smith",
+            "email": "alice.smith@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-02 20:27:54.760741+00:00",
+            "team_id": null,
+            "position_id": 31
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 81,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$lmTQZIQKhN1eZGLBATY2eY$o0DTwEatAwWS716jGONLWv3ewzkYqbbS7nSGlCrJD94=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "charlotte_smith",
+            "first_name": "Charlotte",
+            "last_name": "Smith",
+            "email": "charlotte.smith@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:51:05.267403+00:00",
+            "team_id": 7,
+            "position_id": 27
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 82,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$379itgOJTFaZU1k6KSdA6Z$Tyx+sgk+HOImxpejQF2LhXpyzQlQv3Ju9gGbpzLg0ZE=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jack_wood",
+            "first_name": "Jack",
+            "last_name": "Wood",
+            "email": "jack.wood@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:52:04.992081+00:00",
+            "team_id": 7,
+            "position_id": 27
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 50,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$PYFS7neaclSC5aLT5g8Vgc$4Om8jHC73IOhO84R0a8om8jVGe30Lm8hpVAPxWyIBk4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "daria_kravets",
+            "first_name": "Daria",
+            "last_name": "Kravets",
+            "email": "daria.kravets@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 12:55:34+00:00",
+            "team_id": 1,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 56,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$FHoeQELOqyG53MJfGyF5Xb$1U/9vu6YIHUEbk++hM5qPvtt3y9mzxSZsTB7ptEmJ4k=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "victoria_petrenko",
+            "first_name": "Victoria",
+            "last_name": "Petrenko",
+            "email": "victoria.petrenko@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 14:02:26.982716+00:00",
+            "team_id": 2,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 72,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$OUlfSDNrCUHsV4ViU9N94t$ZsXLHKAc6ydypCjKSVqRlXSvpBZh63s+fUyuq/ZYNTw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "thomas_jones",
+            "first_name": "Thomas",
+            "last_name": "Jones",
+            "email": "thomas.jones@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:30:05.200509+00:00",
+            "team_id": 4,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 85,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$jfvJ8F7AVRq4RJzb6KMt3H$jCZvaBF7r2LOBpQO+wfld4ViwQdP6sd6WmntP/OUO5U=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sophie_thompson",
+            "first_name": "Sophie",
+            "last_name": "Thompson",
+            "email": "sophie.thompson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:54:40.601622+00:00",
+            "team_id": 7,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 91,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$ljpntiQw3m7aslwnLtkfoO$xzYryQ/GCYSzT8W4WILElP1n9SWcmOEF8srFv5MPsfw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "harper_harris",
+            "first_name": "Harper",
+            "last_name": "Harris",
+            "email": "harper.harris@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:02:46.348615+00:00",
+            "team_id": 6,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 106,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$rSoaR1hu7qhA5KIkzRO7tc$VOBpsa0uJgzlmS9wE9GCCqTWLi9+uegpnMT3aR2yRZU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "scarlett_hughes",
+            "first_name": "Scarlett",
+            "last_name": "Hughes",
+            "email": "scarlett.hughes@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:15:45.487300+00:00",
+            "team_id": 9,
+            "position_id": 21
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 60,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$BhuaPB1NXjAhHikkpESOHj$ySSGW9XFAJEdFFNOn2aRYXUFWTukQF8r9cmQVvews0w=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "robert_brown",
+            "first_name": "Robert",
+            "last_name": "Brown",
+            "email": "robert.brown@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 16:54:39.049550+00:00",
+            "team_id": 3,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 61,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$Zmmcb6rZPcDihlElVYIApx$S0BqdMf7jX2Z60I273lrm9u6A+VNDuZwjT28TUaD/0c=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "sophia_lisova",
+            "first_name": "Sophia",
+            "last_name": "Lisova",
+            "email": "sophia.lisova@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 16:55:33.792178+00:00",
+            "team_id": 3,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 65,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$WK02gP64CFEKDjwoZ5LTKi$XvSkqS9iWpGNNfpj7gFW2JFOMbeGSn6IALzBSKZZcjw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "olga_sokolova",
+            "first_name": "Olga",
+            "last_name": "Sokolova",
+            "email": "olga.sokolova@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:10:40.911375+00:00",
+            "team_id": 3,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 83,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$RUt6mUjvkticFw7iUaghmq$M4rDDrjWMWRjEy4KHE7mBe3SOA0BHuryRAb9iK9sdO0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ava_taylor",
+            "first_name": "Ava",
+            "last_name": "Taylor",
+            "email": "ava.taylor@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:52:58.865408+00:00",
+            "team_id": 7,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 90,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$BBAqprjIOAKK3qy5phNQXB$Uu9XG7ZMQoE3VYS4Omh6WdHEug+uyXvT4k3eyitGBzc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "liam_clark",
+            "first_name": "Liam",
+            "last_name": "Clark",
+            "email": "liam.clark@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:02:08.388433+00:00",
+            "team_id": 6,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 97,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$ABb3wUyWgTvNjzmapHJcsG$7NesTAPzbx1Nwxr9y1qBDVa+rqXAEx6yACT4IfOKMeM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "matthew_watson",
+            "first_name": "Matthew",
+            "last_name": "Watson",
+            "email": "matthew.watson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:08:35.654264+00:00",
+            "team_id": 10,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 109,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$JwoyalzFOyHuFmJz4ptQph$ShhQRXzLYXd2XRT7eJzO/hcg0Cf2oZRuAmcy8fpXULg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "alexis_sullivan",
+            "first_name": "Alexis",
+            "last_name": "Sullivan",
+            "email": "alexis.sullivan@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:18:33.234005+00:00",
+            "team_id": 8,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 124,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$k6iDVV2AJbRzP26aduCQAL$Ao3TXiQFkvNF+zdaTlK0wI1xDEba7e0w7tLktR3VQuY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "charlie_brown",
+            "first_name": "Charlie",
+            "last_name": "Brown",
+            "email": "charlie.brown@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-02 20:29:49.106436+00:00",
+            "team_id": null,
+            "position_id": 23
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 73,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$dex0u1DKyE4qjDmjs6e0kN$RyBA0NeTGFCUkUQexmK6KZTL4LgJRvoE4dIV6E52IcQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "isabella_brown",
+            "first_name": "Isabella",
+            "last_name": "Brown",
+            "email": "isabella.brown@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:30:47.640251+00:00",
+            "team_id": 4,
+            "position_id": 25
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 74,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$0AwNMH8Om6VnQ3BuDEx6VC$M/sbJCDl1Vqu/GW/FfAV8TBISLgdpM3VbH/3upXoO98=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "alexander_wilson",
+            "first_name": "Alexander",
+            "last_name": "Wilson",
+            "email": "alexander.wilson@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:41:09.269645+00:00",
+            "team_id": 5,
+            "position_id": 25
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 75,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$3rmjZByh0M8AWh5jPDgvIc$LgdCXz239cFFNrPq8SUwAh6//MV5LH1QlkL0vmi6q2I=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "elizabeth_clark",
+            "first_name": "Elizabeth",
+            "last_name": "Clark",
+            "email": "elizabeth.clark@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:42:31.491936+00:00",
+            "team_id": 5,
+            "position_id": 25
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 93,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$4c9g7CJjj9CaDkfRaDI5Cx$sh+bMLe0IPuxJJDdjW+VRk+LNJKE3EqyyDt/71DwuhA=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ella_green",
+            "first_name": "Ella",
+            "last_name": "Green",
+            "email": "ella.green@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:03:59.294392+00:00",
+            "team_id": 6,
+            "position_id": 25
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 100,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$zRwffmWa8mQWFqEQLmy3jc$z9YAxbi5q1T0uBFi0T5nO+Zf2rtmauGHNgTflBDTBDw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jacob_dunn",
+            "first_name": "Jacob",
+            "last_name": "Dunn",
+            "email": "jacob.dunn@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:10:33.362371+00:00",
+            "team_id": 10,
+            "position_id": 25
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 53,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$80L0QxTfHbsqokJQum2aZW$E0QC4DXagmZjRsNOunxFlb1cNibkYSpvRt+N1SBjSCc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "michael_ivanov",
+            "first_name": "Michael",
+            "last_name": "Ivanov",
+            "email": "michael.ivanov@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 13:57:50.319569+00:00",
+            "team_id": 2,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 54,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$8zbiIgQLFUfBlp1msrw6KG$UzR4bk6MvMpDA5ZAfQLfXdglVuZWIppYZSqsE9tE4PA=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "anna_romanova",
+            "first_name": "Anna",
+            "last_name": "Romanova",
+            "email": "anna.romanova@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 13:58:30.985274+00:00",
+            "team_id": 2,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 58,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$Y0wMdPsvyp3wYcuAiSaAHS$5X/jL28XG70d2scZ/AiW08dUZIZq4DPQcIl2AtGwnTU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "alice_koval",
+            "first_name": "Alice",
+            "last_name": "Koval",
+            "email": "alice.koval@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 14:04:32.092303+00:00",
+            "team_id": 2,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 77,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$G6rGnMdSyKnYPZjKUVagQr$Ud7150KUwFioi35+0K8SV1AvP4AYKp4uneXf2Zemm98=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "abigail_walker",
+            "first_name": "Abigail",
+            "last_name": "Walker",
+            "email": "abigail.walker@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 17:44:21.110644+00:00",
+            "team_id": 5,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 88,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$ijC0uyFxomXIUPXaz9XH8D$fikoP7wdcZUm3bgTkTTMAZsYDFfdHaxJ30PlyOzkHRA=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "logan_brown",
+            "first_name": "Logan",
+            "last_name": "Brown",
+            "email": "logan.brown@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:00:01.558540+00:00",
+            "team_id": 6,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 101,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$2pUS2pXMxhiRFrJwkzChT6$/ssKpsVx3iwO5dKutStHMWKvkPU+fC1M4EK9KfRfN+M=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lily_reynolds",
+            "first_name": "Lily",
+            "last_name": "Reynolds",
+            "email": "lily.reynolds@example.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-11-18 18:11:12.275346+00:00",
+            "team_id": 10,
+            "position_id": 22
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 45,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$s56OcZfyC1fw4D1lUnyf7N$McIgsWuZpG9Ov+qf7CMRzo3T0FO3bzurz0xmKCBVLhk=",
+            "last_login": "2024-12-17 23:54:20.005615+00:00",
+            "is_superuser": true,
+            "username": "user_admin",
+            "first_name": "Danil",
+            "last_name": "Sivkovich",
+            "email": "admin@user.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-11-18 11:49:29+00:00",
+            "team_id": null,
+            "position_id": 33
+        }
+    },
+    {
+        "model": "management.Worker",
+        "pk": 127,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$NEkOBBzXCLMpGTJCn2xSby$7oNnMi7To9OBuReYlekiocfmi8iJki27Qcd9tZ09h7A=",
+            "last_login": "2024-12-17 23:59:30.935041+00:00",
+            "is_superuser": false,
+            "username": "user",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-12-09 12:43:44.047601+00:00",
+            "team_id": null,
+            "position_id": 33
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 1,
+        "fields": {
+            "name": "Concept Creators",
+            "team_lead_id": 46
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 2,
+        "fields": {
+            "name": "Urban Designers",
+            "team_lead_id": 53
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 3,
+        "fields": {
+            "name": "Structural Innovators",
+            "team_lead_id": 60
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 4,
+        "fields": {
+            "name": "Interior Visionaries",
+            "team_lead_id": 67
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 5,
+        "fields": {
+            "name": "Sustainable Solutions",
+            "team_lead_id": 74
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 6,
+        "fields": {
+            "name": "BIM Specialists",
+            "team_lead_id": 88
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 7,
+        "fields": {
+            "name": "Renovation Experts",
+            "team_lead_id": 81
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 8,
+        "fields": {
+            "name": "Facade Engineers",
+            "team_lead_id": 109
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 9,
+        "fields": {
+            "name": "Lighting Designers",
+            "team_lead_id": 102
+        }
+    },
+    {
+        "model": "management.Team",
+        "pk": 10,
+        "fields": {
+            "name": "Construction Coordinators",
+            "team_lead_id": 95
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 15,
+        "fields": {
+            "name": "Solar Highways Initiative",
+            "description": "The Solar Highways Initiative is a transformative project aimed at implementing a sustainable and energy-efficient lighting solution for a 20-kilometer stretch of highway. This initiative combines cutting-edge solar technology with advanced safety and monitoring systems to create an eco-friendly infrastructure model for modern transportation.\r\n\r\nThe core of the project is the deployment of high-efficiency LED streetlights powered by integrated solar panels. These lights are designed to harness solar energy during the day, store it in high-capacity batteries, and provide reliable illumination at night. To further optimize energy use, motion sensors adjust brightness based on traffic activity, ensuring minimal energy consumption during low-traffic hours.\r\n\r\nEmergency lighting stations are strategically positioned along the highway to enhance safety. These stations include solar-powered floodlights, first-aid equipment, and communication devices, providing essential support during accidents or vehicle breakdowns. Directional signage powered by solar energy is equipped with adaptive brightness to ensure visibility in various weather conditions and enhance navigation for drivers.\r\n\r\nAn advanced monitoring system ensures real-time detection of faults and maintenance needs. This centralized system generates automatic alerts, enabling quick repairs and reducing system downtime. Predictive diagnostics further streamline maintenance by identifying potential issues before they escalate, resulting in lower operational costs.\r\n\r\nThe project is also deeply committed to sustainability. By relying solely on renewable solar energy, it eliminates the need for fossil-fuel-based lighting, significantly reducing the carbon footprint. Locally sourced and recyclable materials are used in construction, aligning with circular economy principles to minimize environmental impact.\r\n\r\nThe Solar Highways Initiative is not just about creating a sustainable lighting system but also about redefining the future of transportation infrastructure. This pilot project serves as a stepping stone for broader implementation, with potential expansions including electric vehicle charging stations, smart traffic management systems, and data-driven insights for road safety. The success of this initiative could position it as a global benchmark for eco-friendly highway development.",
+            "deadline": "2026-03-30",
+            "is_completed": false,
+            "priority": "CR",
+            "project_type_id": 3,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 44,
+        "fields": {
+            "name": "Green Summit Commercial Plaza",
+            "description": "The Green Summit Commercial Plaza is a forward-thinking project centered on sustainability and environmental stewardship. This commercial complex is designed to integrate renewable energy sources, innovative water conservation systems, and eco-friendly construction materials, setting a new benchmark for green architecture in urban spaces.\r\n\r\nA key feature of the project is the integration of renewable energy solutions, including rooftop solar panels and energy storage systems. These systems are complemented by advanced energy modeling, ensuring optimized energy use and significantly reducing the carbon footprint throughout the building's lifecycle.\r\n\r\nWater conservation is a priority, with the implementation of rainwater harvesting systems, greywater recycling, and low-flow plumbing fixtures. These systems collectively minimize water waste and contribute to efficient resource management.\r\n\r\nThe construction process emphasizes the use of sustainable materials, such as recycled steel, low-carbon concrete, and locally sourced timber. This approach not only reduces environmental impact but also supports the local economy.\r\n\r\nThe Green Summit Commercial Plaza exemplifies how modern commercial developments can harmonize functionality with environmental responsibility. This project stands as a model for integrating sustainable practices into urban design, offering long-term benefits to both the community and the environment.",
+            "deadline": "2026-04-20",
+            "is_completed": false,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 34,
+        "fields": {
+            "name": "Skyline Commercial Tower BIM Implementation",
+            "description": "The Skyline Commercial Tower project leverages advanced Building Information Modeling (BIM) tools to streamline the design and construction process, ensuring precision and efficiency at every stage. This cutting-edge approach integrates digital 3D modeling to enhance collaboration, optimize resource management, and support data-driven decision-making.\r\n\r\nA key aspect of the implementation is the development of comprehensive 3D models that provide a detailed visualization of the tower\u2019s design. These models are instrumental in identifying and resolving potential clashes between architectural, structural, and MEP (mechanical, electrical, and plumbing) systems before construction begins, reducing delays and cost overruns.\r\n\r\nBIM tools are also utilized for in-depth energy analysis, enabling the team to explore sustainable solutions and improve the building\u2019s overall energy efficiency. Resource allocation is meticulously planned using these models, ensuring that materials and labor are deployed effectively to minimize waste.\r\n\r\nThe project further benefits from BIM-driven scheduling and cost estimation. Detailed construction schedules and accurate budget forecasts are generated from the model data, allowing for precise tracking of project milestones and expenditures.\r\n\r\nThrough the Skyline Commercial Tower BIM Implementation, the project team sets a new standard for efficiency, collaboration, and sustainability in high-rise construction, paving the way for innovative practices in modern urban development.",
+            "deadline": "2026-07-15",
+            "is_completed": false,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 25,
+        "fields": {
+            "name": "Bellemont Library Preservation Initiative",
+            "description": "The Bellemont Library Preservation Initiative focuses on the restoration and preservation of this cherished 19th-century landmark, blending respect for its historical significance with modern functionality. This comprehensive project aims to ensure the library remains a vibrant community resource while preserving its unique architectural heritage.\r\n\r\nRestoration efforts include meticulous repairs to the library's original masonry, ensuring structural integrity while maintaining the craftsmanship that defines its historic character. The stained-glass windows, a hallmark of the building's aesthetic, are being carefully restored to their former brilliance, preserving the artistry of the past. Additionally, the decorative ironwork is undergoing conservation treatments to prevent further deterioration and revive its intricate details.\r\n\r\nTo support the library\u2019s continued use in the modern era, subtle yet impactful upgrades are being introduced. A state-of-the-art climate control system is being installed to protect the library's collections from environmental fluctuations while enhancing visitor comfort. Energy-efficient LED lighting is being integrated throughout the facility to reduce energy consumption without detracting from the building\u2019s historic ambiance.\r\n\r\nThe Bellemont Library Preservation Initiative exemplifies how historic landmarks can be preserved for future generations while adapting to contemporary needs. By honoring its past and investing in its future, this project ensures the library remains a beacon of culture and learning for the community.",
+            "deadline": "2025-04-01",
+            "is_completed": false,
+            "priority": "HP",
+            "project_type_id": 10,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 8,
+        "fields": {
+            "name": "Emerald Park Community Hub",
+            "description": "The Emerald Park Community Hub is a visionary project aimed at creating a vibrant, multi-purpose center to serve the diverse needs of the suburban Emerald Park community. This inclusive space will provide essential facilities and recreational opportunities, fostering connection and engagement among residents of all ages.\r\n\r\nThe hub's design includes a variety of functional spaces, such as meeting rooms for community groups, event halls for celebrations and gatherings, a modern library, and a daycare facility to support local families. These amenities are tailored to meet the dynamic requirements of the community while promoting accessibility and convenience.\r\n\r\nOutdoor features play a pivotal role in enhancing the hub\u2019s appeal, with the addition of a playground for children, picnic areas for social interaction, and walking trails that encourage active lifestyles and connection with nature. These spaces are designed to complement the center\u2019s indoor offerings, creating a holistic community experience.\r\n\r\nA standout feature of the project is the use of modular construction techniques, allowing for efficient assembly and the flexibility to adapt or expand the facility as community needs evolve. This approach not only reduces construction time but also aligns with sustainable building practices by minimizing material waste.\r\n\r\nThe Emerald Park Community Hub represents a forward-thinking approach to community development, balancing functionality, sustainability, and inclusivity. This project aims to become a cornerstone of the Emerald Park area, enriching the lives of its residents and fostering a stronger sense of community.",
+            "deadline": "2025-10-20",
+            "is_completed": false,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 97,
+        "fields": {
+            "name": "City Center Redevelopment",
+            "description": "The redevelopment of the city center into a vibrant mixed-use space, combining residential, commercial, and recreational facilities. The project will include the construction of apartments, retail spaces, offices, and green parks. It aims to create a sustainable urban environment with modern amenities and efficient transportation connections. The design will focus on integrating eco-friendly technologies and community spaces. The project is expected to be finished within four years.",
+            "deadline": "2026-04-20",
+            "is_completed": false,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": null
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 55,
+        "fields": {
+            "name": "Academy of Creative Arts",
+            "description": "The Academy of Creative Arts interior redesign reimagines the learning environment as a vibrant, interactive space that nurtures creativity, collaboration, and innovation. This transformative project aligns with modern educational principles by creating versatile areas tailored to diverse teaching styles and student needs.\r\n\r\nKey elements of the redesign include the use of bold and inspiring color schemes paired with sustainable materials like reclaimed wood and recycled metals, ensuring both aesthetic appeal and environmental responsibility. Modular furniture and adaptable layouts will enable flexible configurations, supporting group collaboration, individual work, and dynamic instructional methods.\r\n\r\nSpecialized zones within the academy are designed to enhance functionality and inspiration. Flexible workstations encourage hands-on creativity, while performance areas provide spaces for showcasing talent. Quiet zones, equipped with modern technology, offer students a retreat for focused learning and reflection.\r\n\r\nThe integration of eco-friendly features, such as large windows and natural lighting, strengthens the connection between indoor spaces and the surrounding environment, creating a refreshing and energizing atmosphere. Walls adorned with creative designs and art installations further inspire students, fostering an immersive environment that celebrates artistic expression and innovation.\r\n\r\nThe redesign of the Academy of Creative Arts represents a holistic approach to education, merging sustainability, technology, and creativity. This project aims to empower students and educators alike by providing an inspiring space that promotes artistic growth and collaborative learning.",
+            "deadline": "2025-06-10",
+            "is_completed": false,
+            "priority": "MP",
+            "project_type_id": 10,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 95,
+        "fields": {
+            "name": "Office Building",
+            "description": "The project entails the construction of an office building in the city's business district. The office complex will consist of multiple levels with spacious workspaces designed for corporate clients. The building will incorporate state-of-the-art HVAC systems to ensure comfort for employees. A large parking lot for both employees and clients will be included in the design. The project is scheduled for completion within two years.",
+            "deadline": "2027-03-30",
+            "is_completed": false,
+            "priority": "MP",
+            "project_type_id": 2,
+            "team_id": null
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 98,
+        "fields": {
+            "name": "University Campus",
+            "description": "The construction of a new university campus designed to accommodate over 5,000 students. The campus will include lecture halls, dormitories, sports facilities, and recreational areas. The architecture will focus on creating an inspiring environment for learning, with modern classrooms and sustainable buildings. A major component will be the development of green spaces and public areas for students and faculty. The project is scheduled for completion in three years.",
+            "deadline": "2027-05-10",
+            "is_completed": false,
+            "priority": "MP",
+            "project_type_id": 10,
+            "team_id": null
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 94,
+        "fields": {
+            "name": "Luxury Apartment Complex",
+            "description": "This project involves the construction of a luxurious residential complex in the central part of the city. The development will feature multi-story apartments with modern amenities and panoramic city views. The interior spaces will be designed with eco-friendly materials and innovative technologies. Particular attention will be given to safety and energy efficiency. The project is expected to be completed by the end of next year.",
+            "deadline": "2026-06-30",
+            "is_completed": false,
+            "priority": "LP",
+            "project_type_id": 1,
+            "team_id": null
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 32,
+        "fields": {
+            "name": "Sunridge Manor Renewal",
+            "description": "The Sunridge Manor Renewal project seeks to preserve the estate's rich historical charm while adapting the space for contemporary use. This thoughtful restoration ensures that the manor continues to serve as a vibrant community hub, blending timeless elegance with modern functionality.\r\n\r\nRestoration efforts prioritize the preservation of key architectural features, including the main hall's iconic stained glass windows, which will be carefully repaired and restored to their original splendor. The original wooden floors, a defining element of the manor\u2019s character, will be refinished to maintain their beauty and craftsmanship.\r\n\r\nModern updates are being made to the kitchen and bathrooms, integrating contemporary amenities without compromising the manor\u2019s historic appeal. These improvements will enhance the manor\u2019s practicality for hosting community events and gatherings, offering an inviting and functional space for all.\r\n\r\nThe Sunridge Manor Renewal project represents a harmonious blend of historical preservation and modernization, ensuring that the manor remains a beloved venue for future generations. By balancing the past and present, the project ensures the estate retains its charm while providing a modern, accessible space for the community to enjoy.",
+            "deadline": "2026-10-01",
+            "is_completed": false,
+            "priority": "LP",
+            "project_type_id": 2,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 96,
+        "fields": {
+            "name": "Highway Expansion",
+            "description": "The expansion of a major highway to alleviate traffic congestion and improve transportation infrastructure in the region. The project will include additional lanes and upgrades to existing access points to major highways. New lighting and safety systems will be installed to ensure the safety of drivers and pedestrians. The project also aims to improve access to surrounding towns and cities. The construction is expected to be completed within three years.",
+            "deadline": "2028-04-20",
+            "is_completed": false,
+            "priority": "LP",
+            "project_type_id": 3,
+            "team_id": null
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 35,
+        "fields": {
+            "name": "Green Valley Campus BIM Integration",
+            "description": "The Green Valley Campus project leverages Building Information Modeling (BIM) to create a state-of-the-art eco-friendly educational facility, where sustainability is a core design principle. BIM workflows are seamlessly integrated to align every aspect of the design with environmental goals, ensuring the campus is both efficient and environmentally responsible throughout its lifecycle.\r\n\r\nBIM tools are utilized to optimize material usage, minimizing waste and ensuring that resources are allocated effectively during construction. Through advanced modeling and simulation, the project team can assess and enhance the building\u2019s energy performance, ensuring the campus operates with minimal environmental impact.\r\n\r\nBy incorporating BIM, the Green Valley Campus not only achieves its sustainability objectives but also streamlines the construction process, improving collaboration among stakeholders and reducing errors. This forward-thinking integration of technology helps create an educational environment that supports both academic excellence and environmental stewardship.\r\n\r\nThe Green Valley Campus BIM Integration sets a new standard for sustainable design in educational facilities, demonstrating how innovative technologies can drive energy-efficient, resource-conscious construction while meeting the needs of modern learning environments.",
+            "deadline": "2028-05-10",
+            "is_completed": false,
+            "priority": "LP",
+            "project_type_id": 10,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 23,
+        "fields": {
+            "name": "Greenline Residential Complex Facade Upgrade",
+            "description": "The Greenline Residential Complex Facade Upgrade focuses on enhancing both the energy efficiency and aesthetic appeal of the building, creating a more sustainable and visually attractive living space. This modernization project incorporates a range of innovative design elements aimed at improving the building's environmental performance while blending seamlessly with its surroundings.\r\n\r\nReflective coatings will be applied to the fa\u00e7ade to reduce heat absorption, improving the building\u2019s thermal efficiency and reducing cooling costs. Natural ventilation features are introduced to enhance airflow, further reducing reliance on mechanical cooling systems and contributing to the overall sustainability of the complex.\r\n\r\nExterior shading devices will be installed to control solar heat gain, ensuring a more comfortable indoor environment throughout the year. These elements are designed to complement the building's updated look while promoting energy conservation.\r\n\r\nThe fa\u00e7ade will also feature high-quality materials such as terracotta panels and natural wood finishes, creating a warm, organic aesthetic that harmonizes with the surrounding environment. These materials not only add to the building's visual appeal but also improve its durability and long-term maintenance.\r\n\r\nThe Greenline Residential Complex Facade Upgrade is a forward-thinking project that combines sustainability with design innovation, transforming the complex into a more energy-efficient, visually striking, and environmentally integrated space.",
+            "deadline": "2022-04-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 1,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 13,
+        "fields": {
+            "name": "Aurora Tunnel Illumination",
+            "description": "The Aurora Tunnel Illumination project aims to significantly enhance the safety and visual experience for commuters through the installation of cutting-edge lighting systems in a major urban tunnel. Designed to improve visibility while adapting to various traffic and environmental conditions, the system provides a more efficient and engaging tunnel experience.\r\n\r\nAdaptive LED lighting is at the core of the design, automatically adjusting its intensity based on real-time traffic volume and weather conditions. This feature ensures optimal visibility for drivers, improving safety during varying conditions such as fog, rain, or heavy traffic.\r\n\r\nIn addition to its functional benefits, the lighting system incorporates artistic elements to create a visually stimulating environment for commuters. Color gradients and thematic lighting will transform the tunnel into an engaging space, offering a dynamic experience that promotes a sense of place while moving through the city.\r\n\r\nEmergency lighting features are included in the design to ensure continued safety during power outages or critical situations. The project also integrates with the city's smart traffic management system, enabling real-time adjustments to traffic flow and improving overall tunnel operations.\r\n\r\nThe Aurora Tunnel Illumination project represents a forward-thinking approach to urban infrastructure, combining safety, sustainability, and aesthetics to enhance the daily commuter experience.",
+            "deadline": "2022-05-20",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 3,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 6,
+        "fields": {
+            "name": "Downtown Skywalk Network",
+            "description": "The Downtown Skywalk Network project is designed to improve pedestrian safety and enhance traffic flow by creating an interconnected system of elevated walkways throughout the downtown area. This network will provide a weather-protected route for daily commuters, connecting major office buildings, shopping centers, and transit hubs.\r\n\r\nThe skywalk system incorporates energy-efficient lighting to ensure safety and visibility throughout the day and night, while integrated ventilation systems maintain air quality and comfort for pedestrians. The design also focuses on aesthetic elements that harmonize with the urban skyline, adding visual appeal to the cityscape.\r\n\r\nIn addition to its functional benefits, the skywalk will feature commercial kiosks, offering a range of services and enhancing the overall user experience. These kiosks will provide convenience for commuters and visitors, further integrating the skywalk into the daily flow of the city.\r\n\r\nThe Downtown Skywalk Network is a comprehensive urban development initiative that promotes pedestrian mobility, safety, and comfort, while contributing to the vitality of the downtown area. By improving connectivity and incorporating sustainable design, this project sets a new standard for urban infrastructure.",
+            "deadline": "2022-08-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 3,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 3,
+        "fields": {
+            "name": "Harbor Industrial Park",
+            "description": "The Harbor Industrial Park project involves the construction of a state-of-the-art industrial facility designed to support logistics, manufacturing, and distribution operations. The park will feature multiple warehouses equipped with advanced storage technologies, allowing for efficient inventory management and optimized operations. Dedicated logistics hubs will streamline transportation and distribution processes, ensuring smooth coordination between manufacturers and suppliers.\r\n\r\nIn addition to its operational facilities, the park will include modern administrative offices to house business operations and support functions, creating a fully integrated industrial environment. Sustainability is a key focus, with on-site renewable energy systems such as solar panels and wind turbines incorporated into the design to reduce the park\u2019s environmental footprint and ensure long-term energy efficiency.\r\n\r\nTo minimize the impact on the surrounding environment, the landscaping will include noise barriers and green buffers, which will not only help with noise reduction but also enhance the aesthetic quality of the park. This careful integration of sustainable practices and advanced technology ensures that Harbor Industrial Park is a forward-thinking solution for modern industrial and logistical needs.\r\n\r\nThe Harbor Industrial Park is designed to foster growth in the logistics and manufacturing sectors while prioritizing sustainability and environmental responsibility, providing a versatile and eco-friendly platform for businesses to thrive.",
+            "deadline": "2022-10-20",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 8,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 9,
+        "fields": {
+            "name": "Lumos Tower Illumination Project",
+            "description": "The Lumos Tower Illumination Project focuses on the design and installation of a dynamic exterior lighting system for the iconic Lumos Tower, transforming it into a visually striking landmark. This cutting-edge lighting system features energy-efficient LED displays that can change colors to reflect seasonal themes, special events, and cultural celebrations, creating an engaging visual experience for passersby.\r\n\r\nSustainability is a key element of the project, with the integration of solar-powered lighting units that harness renewable energy to minimize environmental impact. Advanced control systems will enable real-time adjustments, allowing the lighting to respond to various conditions, such as time of day or specific events, ensuring the tower remains a focal point in the urban landscape.\r\n\r\nIn addition to exterior lighting, the project includes enhancements to interior lighting, improving visibility and aesthetics within public spaces, such as the lobby and observation areas. These updates will create a welcoming atmosphere while complementing the building's modern architectural design.\r\n\r\nThe Lumos Tower Illumination Project is a forward-thinking initiative that combines sustainability, innovation, and artistic expression, positioning Lumos Tower as a dynamic and iconic feature in the city's skyline.",
+            "deadline": "2023-01-10",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 47,
+        "fields": {
+            "name": "EcoWorks Industrial Complex",
+            "description": "The EcoWorks Industrial Complex is designed with a focus on sustainability and green design principles, aimed at reducing both operational costs and environmental impact. The complex will feature solar-powered machinery, harnessing renewable energy to power key equipment, thereby reducing reliance on traditional energy sources and lowering the carbon footprint.\r\n\r\nRainwater harvesting systems will be implemented throughout the facility to collect and reuse rainwater for non-potable purposes, such as irrigation and cooling, further enhancing resource efficiency. Additionally, energy-efficient building envelopes will be incorporated, utilizing high-performance insulation, windows, and energy-saving technologies to reduce heating and cooling demands, contributing to long-term energy savings.\r\n\r\nThis forward-thinking approach ensures that EcoWorks not only meets the operational needs of the industrial sector but also sets a benchmark for sustainability in industrial design. By integrating renewable energy solutions, water conservation practices, and energy-efficient building systems, the EcoWorks Industrial Complex will provide a model for eco-friendly, cost-effective industrial development.",
+            "deadline": "2023-03-30",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 8,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 7,
+        "fields": {
+            "name": "Coastal Logistics Terminal",
+            "description": "The Coastal Logistics Terminal project aims to establish a state-of-the-art facility designed to enhance shipping and freight operations along the coastal area. The terminal will feature modern docking stations and container storage units, along with high-capacity cranes for efficient loading and unloading of cargo, ensuring swift and smooth operations for import and export activities.\r\n\r\nAdjacent to the terminal, an administrative building will serve as the operational hub, equipped with green energy solutions such as solar panels and energy-efficient systems to reduce operational costs and environmental impact. The building will also incorporate advanced communication technologies to streamline coordination and improve real-time data sharing across the terminal.\r\n\r\nTo enhance accessibility and improve overall connectivity, the project includes the construction of well-planned access roads that will link the terminal to nearby highways, facilitating smooth transportation of goods to and from the facility.\r\n\r\nThe Coastal Logistics Terminal is designed to boost the efficiency of maritime logistics while incorporating sustainable practices and modern infrastructure, positioning it as a key asset for regional trade and transportation.",
+            "deadline": "2023-06-30",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 3,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 57,
+        "fields": {
+            "name": "Innovate Industrial Offices",
+            "description": "Designing ergonomic and inspiring interiors for Innovate Industrial Offices. The project includes smart workspace layouts, noise-cancellation zones, and contemporary aesthetics tailored for industrial team efficiency.",
+            "deadline": "2023-08-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 8,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 51,
+        "fields": {
+            "name": "Heritage Eco-Restoration Project",
+            "description": "Restoration of a historic district using sustainable practices, such as energy-efficient retrofitting, use of locally sourced materials, and incorporation of green infrastructure to enhance both aesthetics and functionality.",
+            "deadline": "2023-08-25",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 6,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 61,
+        "fields": {
+            "name": "Century Heritage Interiors",
+            "description": "Restoring the interiors of a historic hotel with a focus on preserving heritage while incorporating modern amenities. The design harmonizes vintage elegance with contemporary functionality.",
+            "deadline": "2023-09-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 6,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 67,
+        "fields": {
+            "name": "Nexus Industrial Hub",
+            "description": "Providing structural engineering solutions for Nexus Industrial Hub, including reinforced concrete frameworks, advanced material handling systems, and eco-friendly construction techniques.",
+            "deadline": "2023-09-30",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 8,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 39,
+        "fields": {
+            "name": "Azure Park BIM Landscape Coordination",
+            "description": "Employing BIM to design Azure Park, a sustainable urban landscape. Detailed modeling of terrain, irrigation systems, and vegetation placement ensures optimal resource utilization. The project emphasizes collaboration between architects, landscape designers, and environmental specialists.",
+            "deadline": "2023-10-25",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 7,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 79,
+        "fields": {
+            "name": "Crescent Heritage Restoration Plan",
+            "description": "Developing an urban restoration plan for Crescent Heritage, focusing on revitalizing historical areas while integrating modern urban design elements. The project maintains cultural significance and encourages tourism.",
+            "deadline": "2024-02-20",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 6,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 30,
+        "fields": {
+            "name": "Hillside Inn Refurbishment",
+            "description": "Refurbishment of the historic Hillside Inn, a 1920s boutique hotel. The project emphasizes preserving art deco elements, restoring terrazzo flooring, and incorporating modern amenities such as Wi-Fi and centralized heating. The renovation respects the building's architectural legacy while providing a luxurious guest experience.",
+            "deadline": "2024-08-20",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 9,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 85,
+        "fields": {
+            "name": "Gateway Bridge Network",
+            "description": "Developing a transformative infrastructure concept for the Gateway Bridge Network. The project envisions a series of interconnected pedestrian and vehicular bridges that prioritize urban connectivity and aesthetics. The design incorporates lightweight materials, innovative engineering techniques, and vibrant public spaces at key nodes to enhance user experience and urban mobility.",
+            "deadline": "2024-09-05",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 3,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 43,
+        "fields": {
+            "name": "Cityscape Expansion BIM-Driven Urban Planning",
+            "description": "A BIM-centered approach to urban planning for Cityscape Expansion. The project involves detailed zoning models, infrastructure integration, and visualization of public spaces to enhance connectivity and livability. Long-term maintenance strategies are also developed.",
+            "deadline": "2024-10-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 5,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 53,
+        "fields": {
+            "name": "New Horizon Urban Plan",
+            "description": "Creation of a sustainable urban plan for New Horizon, prioritizing pedestrian-friendly pathways, renewable energy grids, and green public spaces. The project incorporates cutting-edge sustainability practices to build a resilient and eco-friendly city model.",
+            "deadline": "2024-11-10",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 5,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 54,
+        "fields": {
+            "name": "Luxe Commercial Interiors",
+            "description": "Designing modern and functional interiors for Luxe Commercial Plaza. The project emphasizes ergonomic workspace design, smart technology integration, and elegant aesthetics to enhance user experience and productivity.",
+            "deadline": "2025-02-18",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 64,
+        "fields": {
+            "name": "SkyReach Tower Framework",
+            "description": "Developing structural frameworks for SkyReach Tower, a commercial skyscraper. The project involves advanced load-bearing systems, earthquake resistance technologies, and sustainable steel-reinforced materials to support its iconic height.",
+            "deadline": "2025-03-12",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 17,
+        "fields": {
+            "name": "Solarveil Office Tower Facade",
+            "description": "Comprehensive redesign of the fa\u00e7ade for Solarveil Office Tower to integrate photovoltaic panels and improve thermal performance. The project includes the addition of dynamic shading systems, high-performance glazing, and green walls. Aesthetic enhancements focus on a sleek, modern look while aligning with energy efficiency goals. The design will serve as a case study in sustainable fa\u00e7ade engineering.",
+            "deadline": "2025-06-01",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 81,
+        "fields": {
+            "name": "Infinity Tower Design",
+            "description": "Developing a groundbreaking concept for the Infinity Tower, a high-rise commercial building. The project emphasizes a futuristic aesthetic with modular office spaces, integrated smart technologies, and green terraces at multiple levels. The design aims to blend functionality with striking visual appeal, setting a new standard for urban skyscrapers.",
+            "deadline": "2025-07-01",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 2,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 24,
+        "fields": {
+            "name": "Grand Heritage Theatre Restoration",
+            "description": "A complete restoration of the Grand Heritage Theatre, focusing on reviving original architectural details such as ornate plasterwork, vintage lighting fixtures, and timber framing. The project includes modern upgrades for safety and accessibility, such as fire-resistant materials and improved HVAC systems, while maintaining the building\u2019s historic charm.",
+            "deadline": "2025-09-15",
+            "is_completed": true,
+            "priority": "CR",
+            "project_type_id": 6,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 10,
+        "fields": {
+            "name": "Starry Night Walkway",
+            "description": "A transformative project to illuminate a 2-kilometer public walkway in the urban park with solar-powered, motion-sensor lights. The design combines soft ambient lighting with focused spots for key areas like benches, gazebos, and art installations. The concept emphasizes blending artificial light with the park's natural beauty, creating a safe and enchanting night-time experience for visitors. Special attention is given to minimizing light pollution and protecting local wildlife.",
+            "deadline": "2022-11-25",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 7,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 20,
+        "fields": {
+            "name": "Horizon Mall Facade Renovation",
+            "description": "Redesign of Horizon Mall\u2019s aging fa\u00e7ade with a focus on enhancing visual appeal and energy efficiency. Key elements include the addition of perforated aluminum panels for shading, dynamic LED lighting for branding, and upgraded entrances for better accessibility. The new fa\u00e7ade design aims to attract more visitors and increase commercial activity.",
+            "deadline": "2022-12-01",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 2,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 4,
+        "fields": {
+            "name": "Sunrise Residential Complex",
+            "description": "Development of a premium gated community comprising 50 modern housing units. Each unit will include customizable smart home features, energy-efficient appliances, and high-quality finishes. Community amenities will include parks, recreational facilities, a clubhouse with a gym and pool, and secure access points with 24/7 monitoring. The complex aims to provide a luxurious yet sustainable living environment, catering to families and professionals.",
+            "deadline": "2023-05-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 1,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 27,
+        "fields": {
+            "name": "Orchard Street Residential Revitalization",
+            "description": "Renovation of a row of Victorian townhouses on Orchard Street. The project includes restoring original woodwork, refreshing the interiors with modern finishes, and upgrading plumbing and electrical systems. A balance is struck between preserving historic aesthetics and meeting contemporary living standards.",
+            "deadline": "2023-05-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 1,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 37,
+        "fields": {
+            "name": "Nova Industrial Park BIM Optimization",
+            "description": "Leveraging BIM technology for the Nova Industrial Park, ensuring efficient design coordination and construction management. Key deliverables include clash detection reports, accurate scheduling, and a comprehensive digital twin for future facility management.",
+            "deadline": "2023-06-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 8,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 12,
+        "fields": {
+            "name": "Beacon Residential Towers Lighting Upgrade",
+            "description": "Modernization of the lighting systems across three residential towers to improve energy efficiency and tenant comfort. The project includes smart LED lighting in common areas, enhanced security lighting in parking garages, and customizable in-unit lighting options for residents. Outdoor spaces will feature solar-powered pathway lights and floodlights for playgrounds. The project aims to reduce energy consumption by 30% and improve the aesthetic appeal of the property.",
+            "deadline": "2023-07-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 1,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 42,
+        "fields": {
+            "name": "Solarium Residences BIM Collaboration",
+            "description": "Developing detailed BIM workflows for Solarium Residences, a modern housing complex. The project prioritizes design accuracy, construction sequencing, and cost estimation. Virtual models facilitate stakeholder collaboration and quick decision-making.",
+            "deadline": "2023-09-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 1,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 16,
+        "fields": {
+            "name": "Twilight Marina Illumination Project",
+            "description": "Design and execution of an aesthetically pleasing and functional lighting system for the Twilight Marina. Key areas include dock lighting, underwater illumination for yachts, and feature lighting for the marina's restaurants and lounges. The design aims to create a luxurious atmosphere while ensuring safety for nighttime operations. Special fixtures will highlight architectural details and enhance the overall visual appeal.",
+            "deadline": "2023-11-15",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 9,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 82,
+        "fields": {
+            "name": "Aurora Learning Center",
+            "description": "Creating an architectural concept for the Aurora Learning Center, a state-of-the-art educational facility designed for modern learning environments. The design includes flexible classrooms, interactive outdoor learning spaces, and energy-efficient building systems. It integrates natural light and open spaces to foster creativity and collaboration among students and faculty.",
+            "deadline": "2023-11-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 10,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 1,
+        "fields": {
+            "name": "Skyline Business Center",
+            "description": "Development of a 12-story commercial office building situated in the heart of the business district. The project aims to integrate modern architectural aesthetics with advanced security systems and energy-efficient technologies. The structure will feature a glass facade, solar panel roofing, and an underground parking facility for 500 vehicles. The project also includes landscaped outdoor areas to enhance the overall environment for employees and visitors.",
+            "deadline": "2023-12-15",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 2,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 40,
+        "fields": {
+            "name": "Urban Heights Mixed-Use BIM Project",
+            "description": "Comprehensive BIM application in Urban Heights, a mixed-use development featuring residential, commercial, and recreational spaces. The project focuses on integrating design elements across various domains, ensuring seamless transitions and efficient space utilization.",
+            "deadline": "2024-03-20",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 76,
+        "fields": {
+            "name": "Haven Square Public Hub",
+            "description": "Developing a new public hub at Haven Square, combining open spaces, cultural landmarks, and community gathering areas. The design promotes accessibility, inclusivity, and sustainability.",
+            "deadline": "2024-03-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 7,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 60,
+        "fields": {
+            "name": "Vertex Mixed-Use Lounge",
+            "description": "Designing a mixed-use lounge at Vertex Development, blending residential comfort and commercial functionality. Key elements include modular furniture, soundproofing, and innovative lighting systems to suit diverse purposes.",
+            "deadline": "2024-04-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 71,
+        "fields": {
+            "name": "Harmony Green District",
+            "description": "Master planning a new urban district called Harmony Green. The design includes eco-friendly housing, pedestrian-friendly streets, integrated public transportation hubs, and ample green spaces to enhance community well-being.",
+            "deadline": "2024-05-20",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 5,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 50,
+        "fields": {
+            "name": "GreenLink Mixed-Use Hub",
+            "description": "Development of GreenLink Mixed-Use Hub, featuring energy-efficient residential units, solar-powered commercial spaces, and eco-friendly recreational areas. A comprehensive waste management plan ensures minimal environmental impact during and after construction.",
+            "deadline": "2024-05-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 86,
+        "fields": {
+            "name": "Eden Grove Park Development",
+            "description": "Crafting a visionary design for Eden Grove Park, a large-scale landscape architecture project. The design includes thematic gardens, recreational trails, and eco-sensitive water management systems. Public spaces are designed to encourage community engagement, physical activity, and a deeper connection with nature, setting a benchmark for urban parks.",
+            "deadline": "2024-06-01",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 7,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 29,
+        "fields": {
+            "name": "Pearl Harbor Museum Exhibit Upgrade",
+            "description": "Enhancements to the Pearl Harbor Museum\u2019s exhibits and facilities. Restoration involves repairing weathered exteriors and upgrading displays with interactive digital elements. A particular focus is given to preserving the iconic steel and concrete structures that form part of the memorial.",
+            "deadline": "2024-06-15",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 74,
+        "fields": {
+            "name": "MetroGrid Transit Expansion",
+            "description": "Designing urban landscapes around new transit nodes as part of the MetroGrid expansion. This project includes pedestrian zones, bike lanes, and mixed-use spaces for community interaction.",
+            "deadline": "2024-06-15",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 3,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 65,
+        "fields": {
+            "name": "STEM Academy Structural Plan",
+            "description": "Designing structural frameworks for the STEM Academy campus. The project includes creating modular and adaptable structures for classrooms, labs, and auditoriums while adhering to strict safety standards.",
+            "deadline": "2024-06-20",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 10,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 48,
+        "fields": {
+            "name": "Sustainable Harbor Bridge",
+            "description": "Designing the Sustainable Harbor Bridge with eco-friendly construction techniques, such as recycled materials and modular design for easy maintenance. Additional focus is on incorporating solar panels to power lighting systems.",
+            "deadline": "2024-07-01",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 3,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 58,
+        "fields": {
+            "name": "Metro Transit Interiors",
+            "description": "Reimagining the interiors of metro transit stations with a modern and passenger-friendly approach. Features include intuitive navigation systems, comfortable waiting areas, and sustainable materials for durability and aesthetics.",
+            "deadline": "2024-07-30",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 3,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 45,
+        "fields": {
+            "name": "EcoHaven Educational Facility",
+            "description": "Development of EcoHaven Educational Facility with a sustainability-centric design. Features include solar energy panels, natural ventilation systems, and a green roof for temperature regulation and enhanced biodiversity.",
+            "deadline": "2024-08-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 10,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 77,
+        "fields": {
+            "name": "Unity University Campus Expansion",
+            "description": "Planning the expansion of Unity University with modern educational facilities, green spaces, and improved pedestrian connectivity. This project focuses on sustainable urban integration and innovative educational infrastructure.",
+            "deadline": "2024-08-10",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 10,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 68,
+        "fields": {
+            "name": "Archway Transit Center",
+            "description": "Structural design for the Archway Transit Center to accommodate high traffic and withstand environmental stress. Key elements include robust foundations, high-capacity load zones, and climate-resistant materials.",
+            "deadline": "2024-08-18",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 3,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 63,
+        "fields": {
+            "name": "Horizon District Revitalization",
+            "description": "Revamping interiors of urban housing units in Horizon District. The project focuses on cost-efficient upgrades, natural light optimization, and durable materials to improve community living standards.",
+            "deadline": "2024-10-15",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 5,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 70,
+        "fields": {
+            "name": "Unity Plaza Framework",
+            "description": "Structural development of Unity Plaza, a mixed-use development featuring residential, commercial, and recreational spaces. Advanced load-sharing designs and efficient resource allocation methods are the highlights of this project.",
+            "deadline": "2024-11-25",
+            "is_completed": true,
+            "priority": "HP",
+            "project_type_id": 4,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 26,
+        "fields": {
+            "name": "Victoria Square Facade Rejuvenation",
+            "description": "A fa\u00e7ade rejuvenation project for Victoria Square, a historic commercial complex. Restoration involves cleaning and repairing the original stonework, replacing deteriorated cornices, and installing energy-efficient windows. Careful attention is given to preserving the intricate carvings and ornate architectural details.",
+            "deadline": "2022-11-30",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 2,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 14,
+        "fields": {
+            "name": "Lighthouse Heritage Center Lighting Restoration",
+            "description": "Restoration of the lighting systems at the historic Lighthouse Heritage Center to showcase its architecture and cultural significance. The project involves the installation of period-appropriate fixtures, subtle illumination for outdoor pathways, and feature lighting for exhibits. LED technology will be used to replicate traditional lighting while ensuring energy efficiency. The design also emphasizes the preservation of the site\u2019s historic ambiance.",
+            "deadline": "2023-02-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 6,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 18,
+        "fields": {
+            "name": "Crystal Heights Curtain Wall Upgrade",
+            "description": "Replacement of outdated curtain wall systems at Crystal Heights with advanced double-skin fa\u00e7ades. The new system incorporates natural ventilation and improved insulation, significantly reducing heating and cooling costs. The project also includes LED-integrated panels for nighttime illumination. A focus on clean lines and transparency enhances the tower's architectural presence in the city skyline.",
+            "deadline": "2023-03-10",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 6,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 41,
+        "fields": {
+            "name": "Riverside Community Restoration BIM Support",
+            "description": "Supporting the Riverside Community Restoration through detailed BIM models that streamline renovation processes. The team focuses on creating accurate as-built models, planning structural reinforcements, and simulating construction sequences for safety and efficiency.",
+            "deadline": "2023-05-12",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 6,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 59,
+        "fields": {
+            "name": "Blossom Urban Park Caf\u00e9",
+            "description": "Interior design for Blossom Urban Park Caf\u00e9, incorporating nature-inspired aesthetics with green walls, reclaimed wood furniture, and open layouts to create a tranquil urban retreat for visitors.",
+            "deadline": "2023-05-25",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 7,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 69,
+        "fields": {
+            "name": "Green Terrace Park Bridge",
+            "description": "Engineering a pedestrian bridge at Green Terrace Park. The project incorporates sustainable materials, innovative load distribution methods, and visually appealing designs to blend with the natural environment.",
+            "deadline": "2023-06-10",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 7,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 21,
+        "fields": {
+            "name": "Urban Shelter Mixed-use Facade Project",
+            "description": "Design and engineering of the fa\u00e7ade for Urban Shelter, a new mixed-use development combining residential, retail, and office spaces. The design integrates vertical gardens, solar panels, and smart glass technology. The fa\u00e7ade also features an innovative rainwater collection system, highlighting the project's commitment to sustainability.",
+            "deadline": "2023-08-20",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 4,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 87,
+        "fields": {
+            "name": "Horizon District Mixed-Use Complex",
+            "description": "Creating the master plan for Horizon District, a mixed-use development that includes residential units, commercial spaces, and cultural landmarks. The design integrates vertical greenery, sustainable transport solutions, and energy-efficient building materials. The district is envisioned as a vibrant, self-sustaining urban hub that promotes community living.",
+            "deadline": "2023-08-25",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 4,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 73,
+        "fields": {
+            "name": "Serenity Heights Residential Plan",
+            "description": "Urban design for Serenity Heights, a residential project with innovative layouts, efficient utility distribution, and cohesive integration into the surrounding cityscape.",
+            "deadline": "2023-08-30",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 1,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 78,
+        "fields": {
+            "name": "Bright Horizons Hotel District",
+            "description": "Reimagining the Bright Horizons Hotel District by integrating innovative hospitality spaces, urban plazas, and efficient transit linkages to attract tourism and business opportunities.",
+            "deadline": "2023-09-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 49,
+        "fields": {
+            "name": "Emerald Green Park",
+            "description": "Creation of Emerald Green Park with a commitment to environmental preservation. The project integrates native vegetation, rainwater irrigation systems, and eco-friendly pathways, providing a sustainable urban retreat for the community.",
+            "deadline": "2023-11-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 7,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 75,
+        "fields": {
+            "name": "EcoLink Industrial Zone",
+            "description": "Transforming an existing industrial site into an environmentally sustainable industrial park. The project emphasizes renewable energy sources, green buffers, and efficient layouts to minimize the ecological footprint.",
+            "deadline": "2023-11-25",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 8,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 28,
+        "fields": {
+            "name": "Old Town Hall Structural Overhaul",
+            "description": "Structural reinforcement and aesthetic restoration of Old Town Hall, ensuring its continued use as a community center. Key aspects include foundation stabilization, repair of water-damaged beams, and repainting in original colors. Accessibility enhancements such as ramps and elevators are discreetly integrated.",
+            "deadline": "2023-12-01",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 5,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 80,
+        "fields": {
+            "name": "CityGlow Commercial Hub",
+            "description": "Creating the CityGlow Commercial Hub, which includes retail spaces, entertainment venues, and office towers. The design emphasizes smart urban planning and energy efficiency.",
+            "deadline": "2023-12-05",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 2,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 84,
+        "fields": {
+            "name": "Solaris Industrial Hub",
+            "description": "Designing the Solaris Industrial Hub, a cutting-edge facility focused on sustainable production processes. The concept includes innovative factory layouts, advanced material handling systems, and energy-efficient structures. The project is tailored to accommodate modern industrial needs while minimizing environmental impact, making it a model for future industrial parks.",
+            "deadline": "2023-12-10",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 8,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 56,
+        "fields": {
+            "name": "Harmony Suites",
+            "description": "Developing luxurious and eco-friendly interiors for Harmony Suites, a hospitality project featuring energy-efficient lighting, sustainable furniture, and premium finishes to offer an unparalleled guest experience.",
+            "deadline": "2023-12-20",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 66,
+        "fields": {
+            "name": "Haven Hospitality Pavilion",
+            "description": "Engineering the structural components of Haven Pavilion, a luxury hospitality project. Focus areas include dynamic support systems for open spaces, wind-resistance strategies, and seamless integration of aesthetics with durability.",
+            "deadline": "2024-01-05",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 3
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 52,
+        "fields": {
+            "name": "SolarVista Residential Complex",
+            "description": "Designing SolarVista Residential Complex with advanced solar technology for energy generation, smart home features for energy optimization, and green communal spaces to enhance residents' quality of life.",
+            "deadline": "2024-02-20",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 1,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 31,
+        "fields": {
+            "name": "Crystal River Bridge Maintenance",
+            "description": "Restoration of Crystal River Bridge, addressing structural damage caused by decades of use. Repairs focus on reinforcing the steel trusses, repainting to prevent corrosion, and installing modern safety features such as guardrails and LED lighting. The bridge\u2019s iconic design is carefully preserved.",
+            "deadline": "2024-02-28",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 3,
+            "team_id": 7
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 62,
+        "fields": {
+            "name": "Azure Residential Towers",
+            "description": "Creating sophisticated and livable interiors for Azure Residential Towers. Emphasizing energy-efficient appliances, spacious layouts, and high-quality materials for luxurious living spaces.",
+            "deadline": "2024-02-28",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 1,
+            "team_id": 4
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 11,
+        "fields": {
+            "name": "Crystal Ballroom Lighting Redesign",
+            "description": "A complete overhaul of the lighting system in the prestigious Crystal Ballroom to enhance its functionality and ambiance. The project incorporates state-of-the-art chandeliers, programmable RGB lighting for events, and advanced dimming controls for varying light intensities. The design caters to a wide range of functions, from weddings to corporate events, ensuring the lighting complements the venue\u2019s elegant architecture. Sustainability is a priority, with all fixtures being energy-efficient.",
+            "deadline": "2024-04-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 9
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 83,
+        "fields": {
+            "name": "Zenith Hospitality Resort",
+            "description": "Conceptualizing the Zenith Hospitality Resort, a luxury getaway combining sustainability and modern architecture. The design features eco-friendly villas, a central wellness center, and extensive recreational amenities. The resort prioritizes environmental integration, offering panoramic views, renewable energy solutions, and a focus on guest relaxation and connection with nature.",
+            "deadline": "2024-04-20",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 1
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 46,
+        "fields": {
+            "name": "Harmony Resort Eco-Renovation",
+            "description": "Renovation of Harmony Resort with sustainable practices, focusing on renewable energy sources, water recycling systems, and eco-friendly materials. The project aims to transform the resort into a model for green hospitality.",
+            "deadline": "2024-06-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 5
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 22,
+        "fields": {
+            "name": "Pavilion Cultural Center Facade Design",
+            "description": "Development of a bold and artistic fa\u00e7ade for the new Pavilion Cultural Center. The design incorporates patterned perforated metal panels, symbolizing cultural motifs of the region. The project includes large transparent sections to visually connect indoor and outdoor spaces, creating a welcoming atmosphere for visitors. Structural efficiency is maintained without compromising aesthetics.",
+            "deadline": "2024-07-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 10,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 38,
+        "fields": {
+            "name": "Harborview Bridge BIM Modeling",
+            "description": "Utilizing BIM for the design and construction of the Harborview Bridge. The project includes creating parametric models for structural analysis, optimizing material usage, and simulating traffic patterns to ensure long-term durability and functionality.",
+            "deadline": "2024-07-15",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 3,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 2,
+        "fields": {
+            "name": "Greenfield Mall Expansion",
+            "description": "Expansion of the existing Greenfield Mall to incorporate 25 new retail spaces, a 500-seat food court, and a state-of-the-art entertainment zone. The project will introduce a two-level parking facility with a capacity for 700 vehicles. The design focuses on customer experience, including modernized interiors, improved access routes, and eco-friendly materials to reduce the mall's carbon footprint. The project also includes a new wing dedicated to local artisan shops.",
+            "deadline": "2024-08-01",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 4,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 36,
+        "fields": {
+            "name": "Luxe Hospitality Resort BIM Execution Plan",
+            "description": "BIM-driven design and construction management for Luxe Hospitality Resort, a high-end destination. The project involves detailed 3D visualization, MEP (mechanical, electrical, plumbing) coordination, and streamlined communication between architects, engineers, and contractors.",
+            "deadline": "2024-09-01",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 9,
+            "team_id": 6
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 19,
+        "fields": {
+            "name": "Aeroport Terminal 5 Expansion Facade",
+            "description": "Fa\u00e7ade design for the expansion of Terminal 5 at Aeroport International. The project emphasizes functionality, integrating large-span glass panels for natural light while ensuring thermal and acoustic insulation. Unique architectural details, such as aerodynamic shapes and LED-embedded surfaces, reflect the aviation theme. Coordination with structural and environmental teams ensures a cohesive design process.",
+            "deadline": "2025-08-30",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 3,
+            "team_id": 8
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 72,
+        "fields": {
+            "name": "Skyline Boulevard Development",
+            "description": "Redeveloping Skyline Boulevard into a vibrant mixed-use corridor with retail spaces, residential units, and accessible recreational areas. The project prioritizes efficient land use and community-focused designs.",
+            "deadline": "2025-12-10",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 4,
+            "team_id": 2
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 5,
+        "fields": {
+            "name": "Horizon Educational Campus",
+            "description": "Construction of a state-of-the-art educational facility spanning over 10 acres. The campus will house 30 classrooms, 10 science and computer laboratories, a library with digital resources, and sports facilities including a football field, tennis courts, and an indoor gymnasium. The design emphasizes inclusivity with accessibility features for students with disabilities. Outdoor areas will be landscaped to provide study and recreation spaces, encouraging interaction and learning outside the classroom.",
+            "deadline": "2025-12-30",
+            "is_completed": true,
+            "priority": "MP",
+            "project_type_id": 10,
+            "team_id": 10
+        }
+    },
+    {
+        "model": "management.Project",
+        "pk": 33,
+        "fields": {
+            "name": "Beacon Plaza Adaptive Reuse",
+            "description": "Adaptive reuse of Beacon Plaza, a 20th-century warehouse, into a modern coworking and retail space. Renovations focus on repurposing the original industrial architecture, preserving exposed brick walls, and integrating sustainable materials. The project revitalizes the space while honoring its historic roots.",
+            "deadline": "2024-09-30",
+            "is_completed": true,
+            "priority": "LP",
+            "project_type_id": 4,
+            "team_id": 7
+        }
+    }
+]
